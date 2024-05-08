@@ -12,4 +12,5 @@ I am a post-doctoral research associate in the [Mackinder lab](https://mackinder
 Funding
 ======
 I am currently funded by the Carbon Technology Research Foundation (CTRF) as part of a collaborative project with the University of Princeton and University of Edinburgh.
-[<img src="https://james-r-barrett.github.io/images/CTRF-Logo-White-Text.svg" alt="drawing" width="200"/>]
+
+[<img src="https://james-r-barrett.github.io/images/CTRF-Logo-Black-Text.svg" alt="drawing" width="200"/>]
