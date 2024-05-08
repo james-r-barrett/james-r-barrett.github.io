@@ -21,7 +21,7 @@ repository               : "https://james-r-barrett.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Understanding pyrenoid biology and evolution to aid engineering in plants"
