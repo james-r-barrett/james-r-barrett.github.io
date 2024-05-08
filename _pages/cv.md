@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Education
-* 2023-Present: Postdoctoral Research Associate, University of York (UK)
+* 2023-present: Postdoctoral Research Associate, University of York (UK)
 * 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
 * 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
 * 2016-2019: BSc in Biochemistry, University of York (UK)
@@ -30,6 +30,9 @@ redirect_from:
 * Structural biology
   * Cryogenic electron microscopy (cryo-EM).
 * Bioinformatics
+  * Tool development (<a href="https://github.com/james-r-barrett/FLIPPer">FLIPPer</a>)
+  * Structural prediction (AlphaFold 2)
+  * _In silico_ protein characterisation
   * Differential expression
 
 ## Publications
