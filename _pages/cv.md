@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}<br>
+{% include base_path %}
 
 ## Education
 * 2023-Present: Postdoctoral Research Associate, University of York (UK)
