@@ -1,23 +1,21 @@
 ---
 layout: archive
-title: "Curriculum Vitae*"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}<br><br>
+{% include base_path %}<br>
 
-Education
-======
+## Education
 * 2023-Present: Postdoctoral Research Associate, University of York (UK)
 * 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
 * 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
 * 2016-2019: BSc in Biochemistry, University of York (UK)
-  
-Skills
-======
+
+## Skills
 * Protein biochemistry
   * Protein purification from _E. coli_, algae, plants and _Pichia pastoris_
   * Liquid-liquid phase separation assays
@@ -34,25 +32,11 @@ Skills
 * Bioinformatics
   * Differential expression
 
-Publications
-======
+## Publications
 A selection of publications is listed below, please refer to my <a href="https://scholar.google.com/citations?user=cDjZhJ0AAAAJ&hl=en&oi=sragoogle">Google scholar profile</a> for a more comprehensive summary.
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Organisation
-======
+
+## Organisation
 * Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (2024).
