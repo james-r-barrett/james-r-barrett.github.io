@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "*Curriculum Vitae*"
+title: "Curriculum Vitae*"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+{% include base_path %}<br><br>
 
 Education
 ======
@@ -15,32 +15,24 @@ Education
 * 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
 * 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
 * 2016-2019: BSc in Biochemistry, University of York (UK)
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Protein biochemistry
+  * Protein purification from _E. coli_, algae, plants and _Pichia pastoris_
+  * Liquid-liquid phase separation assays
+* Microscopy
+  * Super-resolution confocal microscopy
+  * Fluorescence recovery after photobleaching (FRAP)
+* Biomolecular interactions
+  * Surface plasmon resonance (SPR)
+  * Microscale thermophoresis (MST)
+  * Co-immunoprecipitation (co-IP) mass spectrometry
+  * Mass photometry
+* Structural biology
+  * Cryogenic electron microscopy (cryo-EM).
+* Bioinformatics
+  * Differential expression
 
 Publications
 ======
@@ -61,6 +53,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Organisation
 ======
-* Currently signed in to 43 different slack teams
+* Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (2024).
