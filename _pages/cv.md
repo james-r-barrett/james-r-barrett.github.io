@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2023-Present: Postdoctoral Research Associate, University of York (UK)
+* 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
+* 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
+* 2016-2019: BSc in Biochemistry, University of York (UK)
 
 Work experience
 ======
@@ -43,6 +44,7 @@ Skills
 
 Publications
 ======
+A selection of publications is listed below, please refer to my <a href="https://scholar.google.com/citations?user=cDjZhJ0AAAAJ&hl=en&oi=sragoogle">Google scholar profile</a> for a more comprehensive summary.
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
