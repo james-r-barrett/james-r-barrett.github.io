@@ -13,6 +13,7 @@ I am a post-doctoral research associate in the [Mackinder lab](https://mackinder
 My main interest is in characterising pyrenoid components and their evolution with a view to understanding how they can be used to guide synthetic biology engineering approaches in plants.
 
 ## Funding
-I am currently funded by the Carbon Technology Research Foundation (CTRF) as part of a collaborative project with the University of Princeton and University of Edinburgh.
+I am currently funded by the Carbon Technology Research Foundation (CTRF) as part of a collaborative project with the University of Princeton and University of Edinburgh. We aim to build on a recent discovery of a promiscuous pyrenoid linker protein from _Chlorella sorokiniana_ to develop a "_Universal strategy for pyrenoid-based CO2-
+concentrating mechanism engineering to enhance CO2 capture in plants and algae._"
 
 <img src="https://james-r-barrett.github.io/images/CTRF-Logo-Black-Text.svg" alt="drawing" width="200"/>
