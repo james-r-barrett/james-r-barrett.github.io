@@ -15,10 +15,3 @@ Where possible, I will upload relevant protocols here.
 {% endfor %}
 
 
-<ul>
-  {% for post in site.protocols %}
-    <li>
-      <a href="{{ protocol.url }}">{{ protocol.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
