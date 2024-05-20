@@ -7,6 +7,8 @@ author_profile: true
 
 Where possible, I will upload relevant protocols here.
 
+{% include base_path %}
+
 <ul>
   {% for protocol in site.protocols %}
     <li>
