@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: protocol
 title: "Protocols"
 permalink: /protocols/
 author_profile: true
