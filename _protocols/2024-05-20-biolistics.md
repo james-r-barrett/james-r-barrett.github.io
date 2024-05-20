@@ -1,5 +1,5 @@
 ---
-title: "protocol 1"
+title: "Chloroplast transformation by biolistic bombardment"
 collection: protocols
 permalink: /protocols/biolistics
 date: 2024-05-20
