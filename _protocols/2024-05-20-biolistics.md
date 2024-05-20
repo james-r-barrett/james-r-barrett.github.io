@@ -6,13 +6,12 @@ date: 2024-05-20
 ---
 
 ## Description
-Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chloroplast using biolistic particle bombardment. Adapted from a protocol shared by the lab of <a href="https://www.plantsci.cam.ac.uk/directory/smith-alison">Alison Smith (University of Cambridge)</a>.
+Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chloroplast using biolistic particle bombardment. Adapted from a protocol shared by the lab of <a href="https://www.plantsci.cam.ac.uk/directory/smith-alison">Alison Smith (University of Cambridge)</a>. Used for the transformation of *Chlamydomonas* in a recent <a href="https://www.biorxiv.org/content/10.1101/2024.04.09.588658v1">Mackinder lab publication</a>, supported by <a href="https://www.biorxiv.org/content/10.1101/2024.05.08.593163v2">work from collaborators</a>.
 
 ## Before starting
 
 ### Materials
 *Essential
-
 - *Macrocarriers (<a href="https://www.bio-rad.com/en-uk/sku/1652335-macrocarriers?ID=1652335">Bio-rad; #1652335</a>)
 - *Microcarriers (0.6 &#181;m gold nanoparticles) (<a href="https://www.bio-rad.com/en-uk/sku/1652262-0-6-um-gold-microcarriers?ID=1652262">Bio-rad; #1652262</a>)
 - *Stopping screens (<a href="https://www.bio-rad.com/en-uk/sku/1652336-stopping-screens?ID=1652336">Bio-rad; #1652336</a>)
@@ -20,8 +19,11 @@ Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chlo
 - *Precipitation buffer (2.5 M CaCl<sub>2</sub>, 100 mM spermidine, dissolved in TE buffer.)
 - Ultrasonication bath
 
+### To prepare
+- Autoclave stopping screens and macrocarrier holders.
+- Ensure cells are healthy and mid-exponential on the day of shooting.
 
-### Notes
+### Additional notes
 - The minimum concentration your plasmid can be for good transformation efficiency is **75 ng &#181;L<sup>-1</sup>**.
 
 
