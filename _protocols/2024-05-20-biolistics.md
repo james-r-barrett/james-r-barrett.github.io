@@ -8,12 +8,25 @@ date: 2024-05-20
 ## Description
 Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chloroplast using biolistic particle bombardment. Adapted from a protocol shared by the lab of <a href="https://www.plantsci.cam.ac.uk/directory/smith-alison">Alison Smith (University of Cambridge)</a>.
 
-### Before starting
+## Before starting
+
+### Materials
+*Essential
+
+- *Macrocarriers (<a href="https://www.bio-rad.com/en-uk/sku/1652335-macrocarriers?ID=1652335">Bio-rad; #1652335</a>)
+- *Microcarriers (0.6 &#181;m gold nanoparticles) (<a href="https://www.bio-rad.com/en-uk/sku/1652262-0-6-um-gold-microcarriers?ID=1652262">Bio-rad; #1652262</a>)
+- *Stopping screens (<a href="https://www.bio-rad.com/en-uk/sku/1652336-stopping-screens?ID=1652336">Bio-rad; #1652336</a>)
+- *Rupture disks (<a href="https://www.bio-rad.com/en-uk/sku/1652329-1-100-psi-rupture-disks?ID=1652329">Bio-rad; #1652329</a>)
+- *Precipitation buffer (2.5 M CaCl<sub>2</sub>, 100 mM spermidine, dissolved in TE buffer.)
+- Ultrasonication bath
+
+
+### Notes
 - The minimum concentration your plasmid can be for good transformation efficiency is **75 ng &#181;L<sup>-1</sup>**.
 
 
 ## Protocol
-### Preparing cells for shooting
+### Preparing cells
 1. Grow cells to mid-exponential phase (2-8x10<sup>6</sup> cells mL<sup>-1</sup>).
 1. Centrifuge (1000 *g*, 5 minutes, RT) and resuspend to 1x10<sup>8</sup> cells mL<sup>-1</sup> in TAP media.
 1. Plate 50-100 &#181;L (5-10x10<sup>6</sup>) cells in the centre of a plate with the correction selection media (100 mm petri dish). Manipulate the plate such that the cells occupy a circular area with a radius of &sim;2 cm.
