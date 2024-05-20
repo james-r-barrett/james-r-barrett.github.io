@@ -24,4 +24,8 @@ Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chlo
 ### Preparing DNA-coated nanoparticles
 1. Resuspend gold nanoparticles by flicking the tube, vortexing (&sim;10 seconds) and briefly sonicating (&sim;1 minute) in an ultrasonic bath.
 1. Aliquot 0.5 mg of gold nanoparticles (10 &#181;L; usually supplied as a 50 mg mL<sup>-1</sup> suspension) for each biolistic transformation into 1.5 mL eppendorfs.
-1. Add the 
+1. Add 500-1000 ng of plasmid DNA per transformation.
+1. Add water such that the final gold concentration is 30 mg mL<sup>-1</sup>.
+   1. For a single transformation, the final volume should be 16.6 &#181;L, of which 10 &#181;L is gold.
+1. Add an equal volume of precipitation buffer, vortex briefly (&sim;10 seconds) and let stand at RT for 3 minutes.
+1. Centrifuge for 5 seconds at 7,500 *g*.
