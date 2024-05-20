@@ -7,11 +7,16 @@ author_profile: true
 
 Where possible, I will upload relevant protocols here.
 
+<ul>
+  {% for protocol in site.protocols %}
+    <li>
+      <a href="{{ protocol.url }}">{{ protocol.title }}</a>
+      <p>{{ protocol.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
-{% include base_path %}
 
-{% for post in site.protocols reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+
 
 
