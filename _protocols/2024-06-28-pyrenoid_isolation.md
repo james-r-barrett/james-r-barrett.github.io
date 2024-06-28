@@ -1,9 +1,11 @@
 ---
-title: "Chloroplast transformation by biolistic bombardment"
+title: "Pyrenoid enrichment protocol"
 collection: protocols
-permalink: /protocols/2024-05-20-biolistics
-date: 2024-05-20
+permalink: /protocols/2024-06-28-pyrenoid_isolation
+date: 2024-06-28
 ---
 
 ## Description
 Protocol for the enrichment of pyrenoids from *Chlorella sorokiniana*.
+
+last updated: 28/06/24
