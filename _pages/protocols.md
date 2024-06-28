@@ -12,8 +12,9 @@ Where possible, I will upload relevant protocols here.
 <ul>
   {% for protocol in site.protocols %}
     <li>
-      <a href="{{ protocol.url }}">{<b>{ protocol.title }</b>}</a>
+      <a href="{{ protocol.url }}">{{<b> protocol.title </b>}}</a>
       <p>{{ protocol.excerpt }}</p>
+    <br>
     </li>
   {% endfor %}
 </ul>
