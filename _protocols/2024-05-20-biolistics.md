@@ -8,6 +8,8 @@ date: 2024-05-20
 ## Description
 Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chloroplast using biolistic particle bombardment. Adapted from a protocol shared by the lab of <a href="https://www.plantsci.cam.ac.uk/directory/smith-alison">Alison Smith (University of Cambridge)</a>. Used for the transformation of *Chlamydomonas* in a recent <a href="https://www.biorxiv.org/content/10.1101/2024.04.09.588658v1">Mackinder lab publication</a>, supported by <a href="https://www.biorxiv.org/content/10.1101/2024.05.08.593163v2">work from collaborators</a>.
 
+last updated: 28/06/24
+
 ## Before starting
 
 ### Materials
@@ -33,6 +35,11 @@ Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chlo
 1. Centrifuge (1000 *g*, 5 minutes, RT) and resuspend to 1x10<sup>8</sup> cells mL<sup>-1</sup> in TAP media.
 1. Plate 50-100 &#181;L (5-10x10<sup>6</sup>) cells in the centre of a plate with the correction selection media (100 mm petri dish). Manipulate the plate such that the cells occupy a circular area with a radius of &sim;2 cm.
    1. For spectinomycin selection, cells can be shot on TAP + 150 &#181;g mL<sup>-1</sup> plates.
+   2. The plates should look similar  to the below example:
+   
+      <img src="/images/biolistics.jpg" alt="drawing" width="400"/>
+
+
 1. Allow plates to dry.
    1. Cells can be transformed biolistically as soon as they are dry on the plate. Do not attempt to shoot prior to drying, as very poor efficiency will be observed in 'damp' regions.
    1. Alternatviely, the plated cells can be incubated in low light for several hours or overnight. Don't let cells grow longer than this, as it will affect the selection process after shooting.
