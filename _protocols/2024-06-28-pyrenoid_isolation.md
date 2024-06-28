@@ -5,7 +5,6 @@ permalink: /protocols/2024-06-28-pyrenoid_isolation
 date: 2024-06-28
 ---
 
-## Description
 Protocol for the enrichment of pyrenoids from green algae. Used for the isolation of pyrenoid enriched fractions from *Chlorella sorokiniana* in a recent <a href="https://www.biorxiv.org/content/10.1101/2024.04.09.588658v1">Mackinder lab contribution</a>.
 
 last updated: 28/06/24

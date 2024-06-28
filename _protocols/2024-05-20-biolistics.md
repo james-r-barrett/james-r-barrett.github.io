@@ -5,9 +5,6 @@ permalink: /protocols/2024-05-20-biolistics
 date: 2024-05-20
 ---
 
-Standard protocol for the transformation of the *Chlamydomonas 
-
-## Description
 Standard protocol for the transformation of the *Chlamydomonas reinhardtii* chloroplast using biolistic particle bombardment. Adapted from a protocol shared by the lab of <a href="https://www.plantsci.cam.ac.uk/directory/smith-alison">Alison Smith (University of Cambridge)</a>. Used for the transformation of *Chlamydomonas* in a recent <a href="https://www.biorxiv.org/content/10.1101/2024.04.09.588658v1">Mackinder lab publication</a>, supported by <a href="https://www.biorxiv.org/content/10.1101/2024.05.08.593163v2">work from collaborators</a>.
 
 last updated: 28/06/24
