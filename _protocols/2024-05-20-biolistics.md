@@ -37,7 +37,7 @@ last updated: 28/06/24
    1. For spectinomycin selection, cells can be shot on TAP + 150 &#181;g mL<sup>-1</sup> plates.
    2. The plates should look similar  to the below example:
    
-      <img src="/images/biolistics.jpg" alt="drawing" width="400"/>
+      <img src="/images/biolistics.jpg" alt="image of petri plates with a 4 cm diameter of cells drying" width="400"/>
 
 
 1. Allow plates to dry.
@@ -75,7 +75,9 @@ last updated: 28/06/24
 1. Place the assembly on the top slot of the biolistics instrument.
 1. Place a rupture disc in the holder and screw firmly onto the nozzle.
    1. If the holder is not tightened sufficiently, the rupture disk can squeeze out through the threads instead of rupturing, resulting in very poor shooting efficiency.
-1. Place a TAP plate two shelves below the macrocarrier assembly, &sim;10 cm from the macrocarrier.
+1. Place a TAP plate two shelves below the macrocarrier assembly, &sim;10 cm from the macrocarrier, as below:
+2. 
+      <img src="/images/gene_gun.jpg" alt="image of petri plates with a 4 cm diameter of cells drying" height="300"/>
 1. Remove the lid of the plate, close the door and turn the vacuum on, with the biolistics intrument set to 'VAC'.
    1. Sometimes the door will fail to seal alone, but can be persuaded by applying some force at the hinge side.
 1. Once the pressure has built to 27/28 mmHg, quickly flick the switch to 'HOLD'.
