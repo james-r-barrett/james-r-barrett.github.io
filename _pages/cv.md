@@ -43,3 +43,4 @@ A selection of publications is listed below, please refer to my <a href="https:/
 
 ## Organisation
 * Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (2024).
+* Tutor at the 2024 Gatsby Plant Science Summer School
