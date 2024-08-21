@@ -3,7 +3,7 @@ layout: default
 title: Graph and Calculation Example
 permalink: /calc/
 author_profile: true
-include_scripts: [/_includes/calculator.js]
+include_scripts: [/pages/calculator.js]
 ---
 {% include base_path %}
 
