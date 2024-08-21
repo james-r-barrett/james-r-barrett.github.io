@@ -20,7 +20,7 @@
                 document.getElementById('result').innerText = "Please enter a valid number.";
                 return;
             }
-            const concentration = -1.0787 * Math.pow(absorbance, 2) + 2.214 * absorbance;
+            const concentration = (-1.0787 * Math.pow(absorbance, 2)) + (2.214 * absorbance);
             document.getElementById('result').innerText = `Protein Concentration: ${concentration.toFixed(2)}`;
         }
     </script>
