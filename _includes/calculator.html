@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Concentration Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Protein Concentration Calculator</h1>
+        <label for="absorbance">Enter Absorbance Value (x):</label>
+        <input type="number" id="absorbance" step="any">
+        <button onclick="calculateConcentration()">Calculate</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function calculateConcentration() {
+            const absorbance = document.getElementById('absorbance').value;
+            const concentration = 2 * absorbance;
+            document.getElementById('result').innerText = `Protein Concentration (y) is: ${concentration}`;
+        }
+    </script>
+</body>
+</html>
