@@ -28,15 +28,24 @@
         <h1>Protein Concentration Calculator</h1>
         <label for="absorbance">Enter Absorbance Value (x):</label>
         <input type="number" id="absorbance" step="any">
+        <label for="molecularWeight">Enter Molecular Weight (kDa):</label>
+        <input type="number" id="molecularWeight" step="any">
         <button onclick="calculateConcentration()">Calculate</button>
         <p id="result"></p>
     </div>
 
     <script>
         function calculateConcentration() {
-            const absorbance = document.getElementById('absorbance').value;
-            const concentration = 2 * absorbance;
-            document.getElementById('result').innerText = `Protein Concentration (y) is: ${concentration}`;
+            const absorbance = parseFloat(document.getElementById('absorbance').value);
+            const molecularWeight = parseFloat(document.getElementById('molecularWeight').value);
+            
+            // Calculate protein concentration using the quadratic equation
+            const concentration = -1.0787 * Math.pow(absorbance, 2) + 2.214 * absorbance;
+            
+            // Convert concentration from mg/ml to micromolar
+            const micromolarConcentration = (concentration * 1000) / molecularWeight;
+            
+            document.getElementById('result').innerText = `Protein Concentration (y) is: ${concentration.toFixed(2)} mg/ml (${micromolarConcentration.toFixed(2)} µM)`;
         }
     </script>
 </body>
