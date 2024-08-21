@@ -12,11 +12,13 @@
         <input type="number" id="concentration" name="concentration" step="any" required>
         <label for="molecularWeight">Enter Molecular Weight (g/mol):</label>
         <input type="number" id="molecularWeight" name="molecularWeight" step="any" required>
-        <button type="button" onclick="calculateAbsorbance()">Calculate</button>
+        <button type="button" id="calculateButton">Calculate</button>
     </form>
     <p id="result"></p>
 
     <script>
+        document.getElementById('calculateButton').addEventListener('click', calculateAbsorbance);
+
         function calculateAbsorbance() {
             const concentration = parseFloat(document.getElementById('concentration').value);
             const molecularWeight = parseFloat(document.getElementById('molecularWeight').value);
