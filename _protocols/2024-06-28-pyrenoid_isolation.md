@@ -18,7 +18,7 @@ last updated: 28/06/24
 - Sonicator and probe
 
 ### Notes
-This protocol serves to enrich partially fixed pyrenoid fractions from green algal systems, but was optimised in *Chlorella sorokiniana*. The protocol was adapted from a starch isolation protocol and therefore equally enriches 'free' starch plates.
+This protocol serves to enrich partially fixed pyrenoid fractions from green algal systems, but was optimised in *Chlorella sorokiniana*. The protocol was adapted from a starch isolation protocol and therefore equally enriches 'free' starch plates. Preliminary mass spectrometry experiments indicate that ribosomes are also enriched by this protocol.
 
 
 ## Protocol
