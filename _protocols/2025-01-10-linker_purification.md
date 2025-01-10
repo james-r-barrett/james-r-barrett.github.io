@@ -38,7 +38,7 @@ last updated: 10/01/2025
 - 500 mM NaCl
 - Adjust to pH 8.0
 
-### Essential note
+## Essential note
 The integrity of the final product is largely dependent on keeping the material as **_cold as possible at all times_**. If possible, complete purification steps in a cold room or otherwise ensure the solution and column temperatures do not surpass 10 &deg;C. For very high quality preparations, pre-cooling plasticware (e.g. centrifuge tubes, falcons and collection blocks) is important. Protease inhibitors (_e.g._ PMSF/ Inhibitor cocktails) will not prevent the degradation of the linker protein at warmer temperatures, which we assume is due to the thermodynamic movement of the protein in solution that acts to tear it apart. Keeping the linker in high salt conditions (_i.e_ 300+ mM NaCl) will prevent most linker proteins from interacting with column resin material and may also prevent self-association of the linker proteins. The typical yield from 1 L of culture is ~10 mg of highly pure linker protein.
 
 ## Transformation and Expression Protocol
