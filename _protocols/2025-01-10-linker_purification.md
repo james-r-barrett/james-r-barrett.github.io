@@ -20,7 +20,7 @@ last updated: 10/01/2025
 - TEV protease (produced from _e.g._ <a href="https://www.addgene.org/8827/">pRK793</a>)
 - Protein concentration columns (_e.g._<a href="https://www.merckmillipore.com/GB/en/product/Amicon-Ultra-15-Centrifugal-Filter-Units,MM_NF-C7715"> Amicon® Ultra-15</a>)
 
-### Buffers
+## Buffers
 **Lysis buffer**
 - 50 mM Tris-HCl
 - 500 mM NaCl
