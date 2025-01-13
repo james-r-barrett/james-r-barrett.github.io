@@ -5,7 +5,7 @@ permalink: /protocols/2025-01-10-linker_purification
 date: 2025-01-10
 ---
 
-Protocol for the soluble purification of linker proteins.
+Protocol for the soluble purification of linker proteins from algal pyrenoids. Used for the purification of Chlamydomonas (<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.218401">EPYC1</a>) and Chlorella (<a href="https://www.nature.com/articles/s41477-024-01812-x">CsLinker</a>) linker proteins, as well as a host of other soluble algal pyrenoid proteins.
 
 last updated: 10/01/2025
 
