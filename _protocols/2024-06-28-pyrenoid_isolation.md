@@ -25,9 +25,9 @@ This protocol serves to enrich partially fixed pyrenoid fractions from green alg
 ### Partial fixation of cells
 
 1. Grow cells to mid-exponential phase (2-10x10<sup>6</sup> cells mL<sup>-1</sup>).
-   1. Most studied pyrenoids are induced under ambient, or lower, CO<sub>2</sub> concentrations (<400 ppm) in minimal media (*e.g.* TP, HSM)
+   1. Most studied pyrenoids are induced under ambient, or lower, CO<sub>2</sub> concentrations (<400 ppm) in minimal media (*e.g.* TP, HSM, ASW)
 1. Harvest cells by centrifugation (1500 *g*, 5 minutes, RT) and resuspend to 1 mL in 30 mM HEPES-KOH (pH 8.0).
-   1. Depending on the downstream intention (*e.g.* mass spectrometry/immunofluorescence/western blot), the number of cells used can be altered. For reference, 5x10L<sup>9</sup> *Chlorella* cells is sufficient for several immunofluorescence experiments in addition to western blotting and mass spectrometry studies.
+   1. Depending on the downstream intention (*e.g.* mass spectrometry/immunofluorescence/western blot), the number of cells used can be altered. For reference, 5x10 L<sup>-9</sup> *Chlorella* cells is sufficient for several immunofluorescence experiments in addition to western blotting and mass spectrometry studies.
 1. Pellet cells again and resuspend to 1 mL in 30 mM HEPES-KOH (pH 8.0) + 1% w/v Formaldehyde in a 1.5 mL eppendorf tube.
 1. Incubate with mixing at room temperature for 20 minutes.
    1. Extending the incubation period or increasing the Formaldehyde % was anecdotally found to increase the *in vivo* cross-linking but risks contaminating pyrenoid fractions with large cellular aggregates if extended too far.
