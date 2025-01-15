@@ -66,7 +66,8 @@ last updated: 28/06/24
    1. Ensure that the macrocarrier holder and stopper screen holder are both thoroughly sterilised to prevent cross-contamination from previous transformations.
 
 ### Shooting
-1. Dispense the DNA-coated nanoparticles onto the macrocarrier and allow to dry in the laminar flow hood.
+1. Briefly (~30 seconds) sonicate the DNA-coated nanoparticles in a floaty in an ultrasonic bath to break up any larger particles.
+1. Dispense the sonicated DNA-coated nanoparticles onto the macrocarrier and allow to dry in the laminar flow hood.
 1. Place the macrocarrier into the macrocarrier holder, such that the nanoparticles are facing away from the metal.
    1. It can often be difficult to get the macrocarrier to sit well in the holder. Using some 70% ethanol to wet the holder can prevent the macrocarrier from springing out.
 1. Place a metal stopping screen into the holder.
