@@ -41,6 +41,7 @@ A selection of publications is listed below, please refer to my <a href="https:/
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-## Organisation
+## Organisation & Outreach
 * Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (2024).
-* Tutor at the 2024 Gatsby Plant Science Summer School
+* Tutor at the 2024 Gatsby Plant Science Summer School 
+* Facilitator for primary school microscopy outreach project, organised by Dr. Katy Davis (Jan. 2025)
