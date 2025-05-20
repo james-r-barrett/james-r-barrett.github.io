@@ -10,7 +10,7 @@ Where possible, I will upload relevant presentations here.
 {% include base_path %}
 
 <ul>
-  {% for presentations in site.presentations %}
+  {% for presentation in site.presentations %}
     <li>
       <a style="font-weight:bold" href="{{ presentation.url }}">{{ presentation.title }}</a>
       <p>{{ presentation.excerpt }}</p>
