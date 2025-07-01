@@ -41,7 +41,16 @@ A selection of publications is listed below, please refer to my <a href="https:/
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+## Supervision
+* Supervised 1 masters student on international lab rotation (June 2025 - present)
+* Supervised 1 integrated masters student (September 2024 - May 2025)
+* Supervised 2 integrated masters student (September 2020 - May 2021)
+* Supervised 5 undergraduate students as part of  BPSInet UGIRES scheme (Summer 2020) 
+
 ## Organisation & Outreach
-* Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (2024).
-* Tutor at the 2024 Gatsby Plant Science Summer School 
-* Facilitator for primary school microscopy outreach project, organised by Dr. Katy Davis (Jan. 2025)
+* Tutor at the 2025 Gatsby Plant Science Summer School (July 2025)
+* Pint of Science 2025 "Planet Earth" session speaker (May 2025) 
+* Facilitator for primary school microscopy outreach project, organised by Dr. Katy Davis (January 2025)
+* Tutor at the 2024 Gatsby Plant Science Summer School (July 2024)
+* Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (April 2024).
+
