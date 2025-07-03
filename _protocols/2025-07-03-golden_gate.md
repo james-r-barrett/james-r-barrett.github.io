@@ -7,9 +7,9 @@ date: 2025-07-03
 
 Protocol for golden gate assembly.
 
-Most of the time these inefficiencies are due to the degradation of ATP/DTT in the 10x  ligase buffer used for the reaction, meaning the T4 DNA ligase cannot function properly. To overcome this, we've previously been aliquoting the ligase buffer and recommending that the same aliquot not be thawed and used >10 times. As before we have replenished the fresh aliquots of the buffer in a new box in the drawer with the enzymes in the freezer. Please remember to thaw these aliquots on ice, keep them for yourself, and freeze as soon as possible after use.
+Most of the time inefficiencies in golden gate assemblies are due to the degradation of ATP/DTT in the 10x  ligase buffer used for the reaction, meaning the T4 DNA ligase cannot function properly. To overcome this, we've previously tried aliquoting the ligase buffer and recommending that the same aliquot not be thawed and used >10 times.
 
-As an alternative that I hope will combat the ATP degradation, I have also made up a 2-part homemade T4 DNA ligase buffer in which the DTT/ATP are kept separate from the Tris/MgCl2 (ATP degrades faster in the presence of MgCl2). These two parts are both 10x stocks, so 1 uL of each should be used in 10 uL reaction. These are also in the same box and labelled 'home ligase buffer P1' and 'home ligase buffer P2' respectively. As the P2 buffer contains ATP and DTT, it should also be thawed on ice and kept cold, but should be substantially more stable than the 10x mix. For those interested the buffer compositions are below:
+As an alternative that I hope will combat the ATP degradation, we use a 2-part homemade T4 DNA ligase buffer in which the DTT/ATP are kept separate from the Tris/MgCl2 (ATP degrades faster in the presence of MgCl2). These two parts are both 10x stocks, so 1 uL of each should be used in 10 uL reaction. These are in the same box and labelled 'home ligase buffer P1' and 'home ligase buffer P2' respectively. As the P2 buffer contains ATP and DTT, it should also be thawed on ice and kept cold, but should be substantially more stable than the 10x mix. For those interested the buffer compositions are below:
 
 ## Recipes for parts
 **Part 1**
@@ -68,6 +68,9 @@ Alternatively, same-day assemblies (~4 hours):
 
 ## Plating
 I then plate transform 4 uL and plate the whole mix.
+
+## Calculating molarity
+We use the <a href="https://nebiocalculator.neb.com/#!/dsdnaamt">NEBioCalculator tool</a> to calculate the mass of DNA to use.
 
 
 
