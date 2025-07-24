@@ -5,7 +5,9 @@ permalink: /protocols/2025-07-03-golden_gate
 date: 2025-07-03
 ---
 
-Protocol for golden gate assembly used in the Mackinder lab. Kindly typed up by visiting rotation student Mel Ludwig
+Protocol for golden gate assembly used in the Mackinder lab. Kindly typed up by visiting rotation student Mel Ludwig.
+
+last updated: 24/07/25
 
 Most of the time inefficiencies in golden gate assemblies are due to the degradation of ATP/DTT in the 10x  ligase buffer used for the reaction, meaning the T4 DNA ligase cannot function properly. To overcome this, we've previously tried aliquoting the ligase buffer and recommending that the same aliquot not be thawed and used >10 times.
 
