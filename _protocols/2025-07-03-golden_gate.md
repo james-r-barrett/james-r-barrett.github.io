@@ -80,22 +80,25 @@ needed volume for 25 fmol of backbone and 50-100 fmol of inserts <a href="https:
 1. Make preferred reaction Mix, keep everything on ice
 1. Assemble in thermal cycler:
 
-**For cycling conditions I'm a fan of overnight assemblies:**
-   - 40 cycles of:
-     - 37 degrees (10 minutes)
-     - 16 degrees (10 minutes)
-     - Then:
-     - 37 degrees (10 minutes)
-     - 65 degrees (20 minutes).
+### a. Cycling conditions for overnight assemblies
 
-**Alternatively, same-day assemblies (~4 hours):**
-   - 15 cycles of:
-      - 37 degrees (5 minutes)
-      - 16 degrees (5 minutes)
-      - Then:
-      - 37 degrees (10 minutes)
-      - 65 degrees (20 minutes).
+<pre>
+  37 °C  for 10 minutes    ⎫ 
+                           ⎬  40 cycles
+  16 °C  for 10 minutes    ⎭
+  37 °C  for 10 minutes       1 cycle
+  65 °C  for 20 minutes       1 cycle
+</pre>
 
+### b. Cycling conditions for same-day assemblies
+
+<pre>
+  37 °C  for 5 minutes    ⎫ 
+                          ⎬  15 cycles
+  16 °C  for 5 minutes    ⎭
+  37 °C  for 10 minutes       1 cycle
+  65 °C  for 20 minutes       1 cycle
+</pre>
 ## Plating
 Transform competent cells with 4 µl of Golden Gate assemblies and plate them
 on a suitable selective medium.
