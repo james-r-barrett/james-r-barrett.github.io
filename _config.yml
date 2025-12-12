@@ -217,6 +217,9 @@ collections:
   presentations:
     output: true
     permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /software/:path/
 
 
 # Defaults
