@@ -13,7 +13,7 @@ Software I develop and use for analysis and discovery is (when possible) shared 
   <div class="list__item" style="margin-bottom: 2em;">
     <article class="archive__item">
       
-      <h2 class="archive__item-title" style="font-size: 1.5em; margin-bottom: 0.25em;">
+      <h2 class="archive__item-title" style="font-size: 1.2em; margin-bottom: 0.25em;">
         <a href="{{ base_path }}{{ tool.url }}" rel="permalink">{{ tool.title }}</a>
       </h2>
 
