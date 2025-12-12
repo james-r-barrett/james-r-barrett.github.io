@@ -9,18 +9,26 @@ Software I develop and use for analysis and discovery is (when possible) shared 
 
 {% include base_path %}
 
-<ul>
-  {% for tool in site.software %}
-    <li>
-      <a style="font-weight:bold" href="{{ tool.url }}">{{ tool.title }}</a>
+{% for tool in site.software %}
+  <div class="list__item">
+    <article class="archive__item">
+      
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="{{ base_path }}{{ tool.url }}" rel="permalink">{{ tool.title }}</a>
+      </h2>
+
+      <div class="archive__item-excerpt" itemprop="description">
+        <p>{{ tool.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
+
       {% if tool.repo_url %}
-        <br>
-        <span style="font-size: 0.9em;">
-          [<a href="{{ tool.repo_url }}" target="_blank">View on GitHub</a>]
-        </span>
+        <p>
+          <a href="{{ tool.repo_url }}" class="btn btn--info" target="_blank" style="text-decoration: none;">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </p>
       {% endif %}
-      <p>{{ tool.excerpt }}</p>
-      <br>
-    </li>
-  {% endfor %}
-</ul>
+      
+    </article>
+  </div>
+{% endfor %}
