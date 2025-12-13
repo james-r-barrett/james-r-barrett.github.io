@@ -23,45 +23,53 @@
 <meta http-equiv="cleartype" content="on">
 
 <style>
+  /* 1. FIX THE INVISIBLE MENU ICON (The "Hamburger") */
   .greedy-nav .navicon,
   .greedy-nav .navicon::before,
   .greedy-nav .navicon::after {
-    background: #525252 !important;
-    height: 2px !important;
+    background: #525252 !important; /* Dark grey */
+    height: 3px !important;          /* Thicker lines */
   }
 
+  /* 2. DEFINE THE HEADER BAR (White background + Shadow) */
   .masthead {
-    background-color: #ffffff;      /* Ensure background is solid white */
-    border-bottom: 1px solid #e0e0e0; /* A faint grey line at the bottom */
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* A nice drop shadow */
-    position: sticky; /* Optional: Keeps the bar at the top when you scroll */
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    position: sticky;
     top: 0;
-    z-index: 20; /* Ensures it stays on top of other content */
+    z-index: 20;
   }
 
-  /* 3. ENSURE YOUR NAME/TITLE IS VISIBLE ON MOBILE */
-  /* Sometimes the theme hides the site title on small screens. This forces it back. */
-  .masthead__inner-wrap .site-title {
-    display: block !important;
-    font-weight: 700;
-    color: #000; /* Ensure text is black */
+  /* 3. FORCE SITE TITLE VISIBILITY & COLOR */
+  /* We target both the div AND the link inside it (a) to ensure it's black */
+  .site-title,
+  .site-title a {
+    color: #000000 !important;   /* Force black text */
+    font-weight: 700 !important;
+    text-decoration: none;
   }
-  /* FORCE SITE TITLE VISIBILITY ON MOBILE */
-@media (max-width: 768px) {
-  .masthead .site-title {
-    display: block !important;    /* Force it to appear */
-    opacity: 1 !important;        /* Ensure it's fully visible */
-    float: left;                  /* Keep it aligned to the left */
 
-    /* Typography tweaks for mobile */
-    font-size: 1.1rem !important; /* Smaller font to fit phone screens */
-    margin-top: 5px;              /* Center it vertically if needed */
+  /* 4. MOBILE SPECIFIC TWEAKS */
+  @media (max-width: 768px) {
+    /* Force the title to display */
+    .site-title {
+      display: block !important;
+      opacity: 1 !important;
+      float: left;
+      font-size: 1.1rem !important;
+      margin-top: 5px;
 
-    /* Safety for long titles */
-    max-width: 75%;               /* Leave 25% space for the hamburger menu */
-    white-space: nowrap;          /* Force text to stay on one line */
-    overflow: hidden;             /* Hide anything that sticks out */
-    text-overflow: ellipsis;      /* Add "..." if the title is cut off */
+      /* Handle long titles with "..." */
+      max-width: 70%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Ensure the content below doesn't get hidden behind the sticky header */
+    .page__content {
+      padding-top: 20px;
+    }
   }
-}
 </style>
