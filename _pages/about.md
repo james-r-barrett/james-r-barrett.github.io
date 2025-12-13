@@ -6,10 +6,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-header:
-  overlay_image: /images/header.png
-  overlay_filter: 0.5 # Darkens the image so text is readable (0.0 to 1.0)
-  caption: "Image credit: [**James Barrett**]"
 ---
 
 I am a post-doctoral research associate in the [Mackinder lab](https://mackinderlab.weebly.com/) at the University of York. I completed my Ph.D in November 2023, presenting a thesis entitled "*Convergent and concurrent evolution of a promiscuous mechanism to phase separate eukaryotic carbon fixation*". During this time, I was lucky to be supervised by Professor Luke Mackinder and Professor Mark Leake, who encouraged a 'blue-sky' approach to science. This allowed me to develop my interests at the interface of pyrenoid biology, synthetic biology and plant engineering.
