@@ -23,15 +23,15 @@
 <meta http-equiv="cleartype" content="on">
 
 <style>
-  /* 1. FIX THE INVISIBLE MENU ICON (The "Hamburger") */
+  /* 1. VISIBLE HAMBURGER ICON (Dark Grey) */
   .greedy-nav .navicon,
   .greedy-nav .navicon::before,
   .greedy-nav .navicon::after {
-    background: #525252 !important; /* Dark grey */
-    height: 3px !important;          /* Thicker lines */
+    background: #525252 !important;
+    height: 3px !important;
   }
 
-  /* 2. DEFINE THE HEADER BAR (White background + Shadow) */
+  /* 2. HEADER BAR (White + Shadow) */
   .masthead {
     background-color: #ffffff !important;
     border-bottom: 1px solid #e0e0e0;
@@ -39,35 +39,42 @@
     position: sticky;
     top: 0;
     z-index: 20;
+    min-height: 60px; /* Ensure the bar has height even if empty */
   }
 
-  /* 3. FORCE SITE TITLE VISIBILITY & COLOR */
-  /* We target both the div AND the link inside it (a) to ensure it's black */
-  .site-title,
-  .site-title a {
-    color: #000000 !important;   /* Force black text */
+  /* 3. DESKTOP TITLE COLOR */
+  .site-title, .site-title a {
+    color: #000000 !important;
     font-weight: 700 !important;
     text-decoration: none;
   }
 
-  /* 4. MOBILE SPECIFIC TWEAKS */
+  /* 4. MOBILE: FORCE TITLE TO APPEAR (The Nuclear Fix) */
   @media (max-width: 768px) {
-    /* Force the title to display */
-    .site-title {
-      display: block !important;
-      opacity: 1 !important;
-      float: left;
-      font-size: 1.1rem !important;
-      margin-top: 5px;
+    .masthead .site-title {
+      /* Break the title out of the flow so JS can't hide it */
+      position: absolute !important;
+      left: 15px;               /* Pin to the left edge */
+      top: 50%;                 /* Center vertically */
+      transform: translateY(-50%);
 
-      /* Handle long titles with "..." */
-      max-width: 70%;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+
+      z-index: 30;              /* Sit on top of the bar */
+      max-width: 75%;           /* Stop it hitting the hamburger */
+
+      /* Typography */
+      font-size: 0.9rem !important; /* Slightly smaller to fit your long title */
+      color: #000 !important;
+      white-space: nowrap;      /* Keep it on one line */
+      overflow: hidden;         /* Cut off excess text */
+      text-overflow: ellipsis;  /* Add "..." if it's too long */
+      margin: 0 !important;
     }
 
-    /* Ensure the content below doesn't get hidden behind the sticky header */
+    /* Ensure content isn't hidden behind the fixed header */
     .page__content {
       padding-top: 20px;
     }
