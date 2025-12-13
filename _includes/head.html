@@ -1,37 +1,13 @@
-{% include base_path %}
-
-<meta charset="utf-8">
-
-{% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
-
 <style>
-  /* 1. VISIBLE HAMBURGER ICON (Dark Grey) */
+  /* --- 1. HAMBURGER ICON STYLING --- */
   .greedy-nav .navicon,
   .greedy-nav .navicon::before,
   .greedy-nav .navicon::after {
-    background: #525252 !important;
+    background: #525252 !important; /* Dark Grey */
     height: 3px !important;
   }
 
-  /* 2. HEADER BAR (White + Shadow) */
+  /* --- 2. HEADER BAR STYLING --- */
   .masthead {
     background-color: #ffffff !important;
     border-bottom: 1px solid #e0e0e0;
@@ -39,42 +15,41 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    min-height: 60px; /* Ensure the bar has height even if empty */
+    min-height: 60px; /* Forces the bar to have size */
   }
 
-  /* 3. DESKTOP TITLE COLOR */
+  /* --- 3. DESKTOP TITLE STYLING --- */
   .site-title, .site-title a {
     color: #000000 !important;
     font-weight: 700 !important;
     text-decoration: none;
   }
 
-  /* 4. MOBILE: FORCE TITLE TO APPEAR (The Nuclear Fix) */
+  /* --- 4. MOBILE SPECIFIC FIXES --- */
   @media (max-width: 768px) {
-    .masthead .site-title {
-      /* Break the title out of the flow so JS can't hide it */
-      position: absolute !important;
-      left: 15px;               /* Pin to the left edge */
-      top: 50%;                 /* Center vertically */
-      transform: translateY(-50%);
 
-      display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-
-      z-index: 30;              /* Sit on top of the bar */
-      max-width: 75%;           /* Stop it hitting the hamburger */
-
-      /* Typography */
-      font-size: 0.9rem !important; /* Slightly smaller to fit your long title */
-      color: #000 !important;
-      white-space: nowrap;      /* Keep it on one line */
-      overflow: hidden;         /* Cut off excess text */
-      text-overflow: ellipsis;  /* Add "..." if it's too long */
-      margin: 0 !important;
+    /* Step A: Hide the original title so it stops jumping around */
+    .site-title {
+      display: none !important;
     }
 
-    /* Ensure content isn't hidden behind the fixed header */
+    /* Step B: "Write" new text directly onto the bar */
+    .masthead__inner-wrap::before {
+      content: "Pyrenoids & Plants"; /* <--- EDIT THIS TEXT TO CHANGE THE MOBILE TITLE */
+      display: block;
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%); /* Centers text vertically */
+
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #000000;
+      z-index: 10; /* Ensures it sits on top */
+      pointer-events: none; /* Prevents it from blocking clicks */
+    }
+
+    /* Step C: Add padding so content doesn't go under the header */
     .page__content {
       padding-top: 20px;
     }
