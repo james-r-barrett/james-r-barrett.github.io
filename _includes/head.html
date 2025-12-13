@@ -46,4 +46,22 @@
     font-weight: 700;
     color: #000; /* Ensure text is black */
   }
+  /* FORCE SITE TITLE VISIBILITY ON MOBILE */
+@media (max-width: 768px) {
+  .masthead .site-title {
+    display: block !important;    /* Force it to appear */
+    opacity: 1 !important;        /* Ensure it's fully visible */
+    float: left;                  /* Keep it aligned to the left */
+
+    /* Typography tweaks for mobile */
+    font-size: 1.1rem !important; /* Smaller font to fit phone screens */
+    margin-top: 5px;              /* Center it vertically if needed */
+
+    /* Safety for long titles */
+    max-width: 75%;               /* Leave 25% space for the hamburger menu */
+    white-space: nowrap;          /* Force text to stay on one line */
+    overflow: hidden;             /* Hide anything that sticks out */
+    text-overflow: ellipsis;      /* Add "..." if the title is cut off */
+  }
+}
 </style>
