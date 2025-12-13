@@ -23,11 +23,27 @@
 <meta http-equiv="cleartype" content="on">
 
 <style>
-  /* Fix invisible mobile menu icon */
   .greedy-nav .navicon,
   .greedy-nav .navicon::before,
   .greedy-nav .navicon::after {
-    background: #000 !important;
-    height: 3px !important; /* Make lines slightly thicker */
+    background: #525252 !important;
+    height: 2px !important;
+  }
+
+  .masthead {
+    background-color: #ffffff;      /* Ensure background is solid white */
+    border-bottom: 1px solid #e0e0e0; /* A faint grey line at the bottom */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* A nice drop shadow */
+    position: sticky; /* Optional: Keeps the bar at the top when you scroll */
+    top: 0;
+    z-index: 20; /* Ensures it stays on top of other content */
+  }
+
+  /* 3. ENSURE YOUR NAME/TITLE IS VISIBLE ON MOBILE */
+  /* Sometimes the theme hides the site title on small screens. This forces it back. */
+  .masthead__inner-wrap .site-title {
+    display: block !important;
+    font-weight: 700;
+    color: #000; /* Ensure text is black */
   }
 </style>
