@@ -1,13 +1,17 @@
 <style>
-  /* --- 1. HAMBURGER ICON STYLING --- */
-  .greedy-nav .navicon,
-  .greedy-nav .navicon::before,
-  .greedy-nav .navicon::after {
-    background: #525252 !important; /* Dark Grey */
-    height: 3px !important;
+  /* --- 1. SLIMMER HEADER (The Fix) --- */
+  /* Remove the thick padding from the inner wrapper */
+  .masthead .masthead__inner-wrap {
+    padding-top: 0.5em !important;    /* Default is often 1em or more */
+    padding-bottom: 0.5em !important;
   }
 
-  /* --- 2. HEADER BAR STYLING --- */
+  /* Optional: Shrink the title font slightly to match the slimmer bar */
+  .site-title {
+    font-size: 1.25rem !important; /* Adjust as needed */
+  }
+
+  /* --- 2. HEADER BAR STRUCTURE --- */
   .masthead {
     background-color: #ffffff !important;
     border-bottom: 1px solid #e0e0e0;
@@ -15,43 +19,48 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    min-height: 60px; /* Forces the bar to have size */
   }
 
-  /* --- 3. DESKTOP TITLE STYLING --- */
+  /* --- 3. MENU ICON VISIBILITY --- */
+  .greedy-nav .navicon,
+  .greedy-nav .navicon::before,
+  .greedy-nav .navicon::after {
+    background: #525252 !important;
+    height: 3px !important;
+    /* Center the icon vertically if the bar is now very thin */
+    top: 50%;
+  }
+
+  /* --- 4. TITLE VISIBILITY & COLOR --- */
   .site-title, .site-title a {
     color: #000000 !important;
     font-weight: 700 !important;
     text-decoration: none;
   }
 
-  /* --- 4. MOBILE SPECIFIC FIXES --- */
+  /* --- 5. MOBILE SPECIFIC LAYOUT --- */
   @media (max-width: 768px) {
-
-    /* Step A: Hide the original title so it stops jumping around */
+    /* Make the title visible and ensure it doesn't overlap the menu */
     .site-title {
-      display: none !important;
+      display: block !important;
+      float: left;
+      font-size: 1.0rem !important; /* Smaller font for mobile */
+      margin-top: 6px;              /* Align text vertically */
+
+      max-width: 70%;               /* Leave room for the hamburger */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;      /* "Pyrenoids and their..." */
     }
 
-    /* Step B: "Write" new text directly onto the bar */
-    .masthead__inner-wrap::before {
-      content: "Pyrenoids & Plants"; /* <--- EDIT THIS TEXT TO CHANGE THE MOBILE TITLE */
-      display: block;
-      position: absolute;
-      left: 15px;
-      top: 50%;
-      transform: translateY(-50%); /* Centers text vertically */
-
-      font-size: 1.1rem;
-      font-weight: bold;
-      color: #000000;
-      z-index: 10; /* Ensures it sits on top */
-      pointer-events: none; /* Prevents it from blocking clicks */
+    /* Adjust the menu button position slightly for the thinner bar */
+    .greedy-nav .navicon {
+      margin-top: 2px;
     }
 
-    /* Step C: Add padding so content doesn't go under the header */
+    /* Ensure content isn't hidden behind the sticky header */
     .page__content {
-      padding-top: 20px;
+      padding-top: 15px;
     }
   }
 </style>
