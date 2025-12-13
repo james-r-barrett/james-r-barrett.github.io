@@ -23,15 +23,29 @@
 <meta http-equiv="cleartype" content="on">
 
 <style>
-  /* 1. FIX THE INVISIBLE MENU ICON (The "Hamburger") */
+  /* --- 1. SLIMMER HEADER BAR (THE FIX) --- */
+  /* This removes the default thick padding inside the bar */
+  .masthead .masthead__inner-wrap {
+    padding-top: 0.5rem !important;    /* Default is often 2rem */
+    padding-bottom: 0.5rem !important; /* Shrinks the height significantly */
+  }
+
+  /* Fix vertical alignment now that the bar is thinner */
+  .site-title {
+    margin-bottom: 0 !important; /* Remove bottom spacing */
+    margin-top: 0 !important;    /* Remove top spacing */
+    line-height: 1.5 !important; /* Ensure text is centered */
+  }
+
+  /* --- 2. HAMBURGER ICON STYLING --- */
   .greedy-nav .navicon,
   .greedy-nav .navicon::before,
   .greedy-nav .navicon::after {
-    background: #525252 !important; /* Dark grey */
-    height: 3px !important;          /* Thicker lines */
+    background: #525252 !important;
+    height: 3px !important;
   }
 
-  /* 2. DEFINE THE HEADER BAR (White background + Shadow) */
+  /* --- 3. HEADER BAR BACKGROUND --- */
   .masthead {
     background-color: #ffffff !important;
     border-bottom: 1px solid #e0e0e0;
@@ -41,33 +55,30 @@
     z-index: 20;
   }
 
-  /* 3. FORCE SITE TITLE VISIBILITY & COLOR */
-  /* We target both the div AND the link inside it (a) to ensure it's black */
-  .site-title,
-  .site-title a {
-    color: #000000 !important;   /* Force black text */
+  /* --- 4. TITLE STYLING --- */
+  .site-title, .site-title a {
+    color: #000000 !important;
     font-weight: 200 !important;
     text-decoration: none;
   }
 
-  /* 4. MOBILE SPECIFIC TWEAKS */
+  /* --- 5. MOBILE SPECIFIC TWEAKS --- */
   @media (max-width: 768px) {
-    /* Force the title to display */
     .site-title {
       display: block !important;
       opacity: 1 !important;
       float: left;
       font-size: 1.1rem !important;
-      margin-top: 5px;
 
-      /* Handle long titles with "..." */
+      /* Vertically center the text relative to the hamburger */
+      margin-top: 4px !important;
+
       max-width: 70%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
-    /* Ensure the content below doesn't get hidden behind the sticky header */
     .page__content {
       padding-top: 20px;
     }
