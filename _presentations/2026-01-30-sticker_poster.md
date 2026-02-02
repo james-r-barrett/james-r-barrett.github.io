@@ -1,5 +1,5 @@
 ---
-title: "Inside the Pyrenoid: How Multivalency Shapes Rubisco Organization and CO2 Fixation"
+title: "Inside the Pyrenoid: How Multivalency Shapes Rubisco Organization and CO₂ Fixation"
 collection: presentations
 type: Poster
 permalink: /presentation/2026-01-30-sticker_poster/
