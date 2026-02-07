@@ -1,0 +1,27 @@
+name: Sync SEC_Fit README
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download README
+        run: |
+          curl -L \
+          https://raw.githubusercontent.com/james-r-barrett/SEC_Fit/main/README.md \
+          -o _readmes/SEC_Fit.md
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add _readmes/SEC_Fit.md
+          git commit -m "Update SEC_Fit README" || echo "No changes"
+          git push
