@@ -196,9 +196,15 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
-    color: #fff;
+    background-color: transparent; /* Removes the backdrop */
+    color: $masthead-link-color; /* Uses your theme's dark text color for the icon */
     cursor: pointer;
+
+    /* Adds a nice fade effect when tapped/hovered */
+    &:hover,
+    &:active {
+      opacity: 0.6;
+    }
   }
 
   .visible-links {
