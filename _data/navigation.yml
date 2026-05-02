@@ -10,3 +10,5 @@ main:
     url: /software/
   - title: "Presentations / Posters"
     url: /presentations/
+  - title: "Gas Monitoring"
+    url: /gas-monitoring/
