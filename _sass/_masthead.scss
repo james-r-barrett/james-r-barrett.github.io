@@ -56,3 +56,100 @@
     font-weight: 700;
   }
 }
+
+/* ── Mobile nav fixes ─────────────────────────────── */
+
+@include breakpoint(max-width $medium) {
+
+  .masthead {
+    height: auto;
+    min-height: $masthead-height;
+  }
+
+  .masthead__inner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    flex-wrap: nowrap;
+
+    nav {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: white;
+
+    .site-title {
+      display: flex !important;
+      align-items: center;
+      font-size: 0.85em;
+      font-weight: 700;
+      color: $masthead-link-color !important;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: calc(100% - 60px);
+      padding-right: 0.5em;
+    }
+
+    &__toggle {
+      flex-shrink: 0;
+      margin-left: auto;
+      padding: 0.5em;
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      .navicon {
+        background: $masthead-link-color;
+
+        &::before,
+        &::after {
+          background: $masthead-link-color;
+        }
+      }
+    }
+
+    .hidden-links {
+      position: absolute;
+      top: $masthead-height;
+      right: 0;
+      background: white;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+      min-width: 220px;
+
+      a {
+        display: block;
+        padding: 0.75em 1em;
+        color: $text-color;
+        border-bottom: 1px solid $border-color;
+        font-size: 0.9em;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &:hover {
+          background: $lighter-gray;
+          color: $link-color;
+        }
+      }
+    }
+
+    .visible-links {
+      display: none; /* all items go to hamburger on mobile */
+    }
+  }
+}
