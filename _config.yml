@@ -9,6 +9,7 @@
 # Basic Site Settings
 locale                   : "en-UK"
 title                    : "Pyrenoids and their potential in plants"
+masthead_title           : "James Barrett"
 title_separator          : "-"
 name                     : &name "James Barrett"
 description              : &description "Post-doctoral Research Associate; University of York (UK)"

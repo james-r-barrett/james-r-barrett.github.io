@@ -1,0 +1,90 @@
+/* Fix mobile masthead bar */
+.masthead {
+  background-color: #fff;
+  border-bottom: 1px solid #f2f3f3;
+  min-height: 4em;
+  z-index: 20;
+  position: relative;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  min-height: 4em;
+}
+
+/* Ensure site title is visible */
+.site-title {
+  display: flex !important;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #494e52 !important;
+  text-decoration: none;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 1em;
+}
+
+/* Fix hamburger button position and appearance */
+.greedy-nav__toggle {
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  padding: 0.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.navicon {
+  display: block;
+  background: #494e52;
+}
+
+.navicon,
+.navicon::before,
+.navicon::after {
+  background-color: #494e52;
+}
+
+/* Dropdown menu fix on mobile */
+.greedy-nav__links {
+  background: #fff;
+  border-bottom: 1px solid #f2f3f3;
+  padding: 0.5em 0;
+}
+
+.greedy-nav .visible-links a {
+  color: #494e52;
+}
+
+/* Hidden links dropdown */
+.greedy-nav .hidden-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+  min-width: 200px;
+}
+
+.greedy-nav .hidden-links a {
+  display: block;
+  padding: 0.75em 1em;
+  color: #494e52;
+  border-bottom: 1px solid #f2f3f3;
+  text-decoration: none;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: #f8f9fa;
+}
