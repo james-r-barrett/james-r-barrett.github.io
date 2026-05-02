@@ -6,7 +6,8 @@
   position: fixed;
   background: white;
   border-bottom: 1px solid $border-color;
-  height: $masthead-height;
+  /* Change from 'height' to 'min-height' to allow the dropdown to expand naturally */
+  min-height: $masthead-height;
   top: 0;
   width: 100%;
 
@@ -19,7 +20,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 1em; /* Simplified padding */
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -28,6 +29,11 @@
 
     nav {
       z-index: 10;
+      /* Add Flexbox to keep the title and hamburger menu aligned horizontally */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; /* Allows the dropdown menu items to drop to the next line */
     }
 
     a {
@@ -37,12 +43,16 @@
 }
 
 .masthead__menu {
+  /* Ensure the menu takes up the full width when it drops down */
+  width: 100%;
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -54,5 +64,8 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    /* Ensure long site titles don't push the hamburger menu off the screen */
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
