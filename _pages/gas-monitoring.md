@@ -17,14 +17,6 @@ This page provides access to the real-time gas monitoring dashboard for the Mack
   </a>
 </div>
 
-<iframe src="YOUR_GRAFANA_URL&kiosk=1" 
-        width="100%" 
-        height="800px" 
-        frameborder="0"
-        style="border: 1px solid #ddd; border-radius: 4px;">
-</iframe>
-<p><a href="https://jamesrbarrett.grafana.net/public-dashboards/2842727a8849425480e023f71c46eba7" target="_blank">Open in full screen ↗</a></p>
-
 The dashboard shows up to 14 days of historical data across all active sensors. It is hosted on Grafana Cloud and requires no login to view.
 
 ## About the system
