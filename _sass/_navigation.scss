@@ -436,3 +436,39 @@
     }
   }
 }
+
+/* ==========================================================================
+   CUSTOM NAVICON (HAMBURGER) STYLING
+   ========================================================================== */
+
+.navicon {
+  width: 24px;
+  height: 3px;
+  background: $masthead-link-color; /* Middle line color */
+  border-radius: 3px; /* Rounds the edges of the lines */
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+
+  /* This creates the top and bottom lines */
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 3px;
+    background: $masthead-link-color;
+    border-radius: 3px; /* Rounds the edges */
+  }
+
+  /* Positions the top line */
+  &::before {
+    top: -8px;
+  }
+
+  /* Positions the bottom line */
+  &::after {
+    bottom: -8px;
+  }
+}
