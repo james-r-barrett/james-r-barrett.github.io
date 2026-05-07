@@ -73,8 +73,6 @@ The system has three types of sensor unit:
 <td><strong>CO₂-only sensors</strong></td>
 <td>Measure carbon dioxide concentration (ppm). Suitable for standard
 growth chambers.</td>
-</tr>
-</thead>
 <tbody>
 <tr>
 <td><strong>CO₂ + O₂ sensors</strong></td>
