@@ -30,12 +30,12 @@ The dashboard shows up to 14 days of historical data across all active sensors. 
 
 The dashboard link opens in a new tab. If the dashboard shows no data for a sensor, the most likely cause is that the sensor has lost its connection to the Raspberry Pi hub — check that the Pi is powered on and that the sensor's indicator light is active.
 
-For calibration procedures, sensor settings, or downloading raw CSV data, connect directly to the individual sensor's WiFi network and navigate to `192.168.4.1`. Full documentation is available from the lab.
+For calibration procedures, sensor settings, or downloading raw CSV data, connect directly to the individual sensor's WiFi network and navigate to `192.168.4.1`. Full documentation is available below.
 
 ## More information
 
 <details markdown="1" style="background: #f2f2f2; padding: 15px; border-radius: 4px; cursor: pointer; margin-bottom: 20px;">
-<summary style="font-weight: bold; font-size: 1.2em;">View Gas System Schematic</summary>
+<summary style="font-size: 1.2em;">View Gas System Schematic</summary>
 
 ![Gas System Schematic]({{ '/images/gas-system_schematic.png' | relative_url }}){: .align-center}
 
@@ -43,7 +43,7 @@ For calibration procedures, sensor settings, or downloading raw CSV data, connec
 </details>
 
 <details markdown="1" style="background: #f2f2f2; padding: 15px; border-radius: 4px; cursor: pointer;">
-<summary style="font-weight: bold; font-size: 1.2em;">View Full System Documentation</summary>
+<summary style="font-size: 1.2em;">View Monitoring System Documentation</summary>
 
 ---
 # 1. System Overview
