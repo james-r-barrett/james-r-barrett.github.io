@@ -22,7 +22,7 @@ The dashboard shows up to 14 days of historical data across all active sensors. 
 <details markdown="1" style="background: #f2f2f2; padding: 15px; border-radius: 4px; cursor: pointer; margin-bottom: 20px;">
 <summary style="font-size: 1em;">View Example Dashboard Screenshot</summary>
 
-![Live dashboard screenshot]({{ '/images/live_dashboard_screenshot.heic' | relative_url }}){:
+![Live dashboard screenshot]({{ '/images/live_dashboard_screenshot.png' | relative_url }}){:
 
 *Figure 1: Example screenshot of the live dashboard.*}.*
 </details>
