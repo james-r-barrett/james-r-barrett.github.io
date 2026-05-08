@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Lab Gas Monitoring"
+title: "Lab Gas System"
 permalink: /gas-monitoring/
 author_profile: true
 ---
@@ -18,6 +18,10 @@ This page provides access to the real-time gas monitoring dashboard for the Mack
 </div>
 
 The dashboard shows up to 14 days of historical data across all active sensors. It is hosted on Grafana Cloud and requires no login to view.
+
+## Example screenshot
+
+![Live dashboard screenshot]({{ '/images/live_dashboard_screenshot.heic' | relative_url }}){:
 
 ## About the system
 
