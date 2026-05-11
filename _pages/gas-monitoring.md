@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Lab Gas System"
-permalink: /gas-monitoring2/
+permalink: /gas-monitoring/
 author_profile: true
 ---
 
@@ -22,7 +22,7 @@ The dashboard shows up to 14 days of historical data across all active sensors. 
 <details markdown="1" style="background: #f2f2f2; padding: 15px; border-radius: 4px; cursor: pointer; margin-bottom: 20px;">
 <summary style="font-size: 1em;">View Example Dashboard Screenshot</summary>
 
-![Live dashboard screenshot]({{ '/images/live_dashboard_screenshot.png' | relative_url }}){:
+![Live dashboard screenshot]({{ '/images/live_dashboard.png' | relative_url }}){:
 
 *Figure 1: Example screenshot of the live dashboard.*}.*
 </details>
@@ -34,6 +34,18 @@ The dashboard shows up to 14 days of historical data across all active sensors. 
 - **O₂ sensors** (selected chambers) use DFRobot SEN0322 electrochemical sensors.
 - Readings are pushed automatically to the dashboard every 5 seconds (default interval, configurable per sensor).
 - Data is stored indefinitely on each sensor's local SD card in monthly CSV files, independent of the dashboard.
+
+For full documentation on the gas system you can visit the dedicated repository webpages:
+<div style="margin: 20px 0;">
+  <a href="https://james-r-barrett.github.io/gas_monitoring/" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     style="display: inline-block; background: #e8530a; color: white; padding: 12px 24px; 
+            border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 1em;">
+    Open Full Gas System Documentation ↗
+  </a>
+</div>
+
 
 ## Notes for lab members
 
@@ -52,7 +64,7 @@ For calibration procedures, sensor settings, or downloading raw CSV data, connec
 </details>
 
 <details markdown="1" style="background: #f2f2f2; padding: 15px; border-radius: 4px; cursor: pointer;">
-<summary style="font-size: 1em;">View Monitoring System Documentation</summary>
+<summary style="font-size: 1em;">View Monitoring System User Guide</summary>
 
 ---
 # 1. System Overview
