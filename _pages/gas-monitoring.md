@@ -66,6 +66,8 @@ For calibration procedures, sensor settings, or downloading raw CSV data, connec
 <details markdown="1" style="background: #f2f2f2; padding: 15px; border-radius: 4px; cursor: pointer;">
 <summary style="font-size: 1em;">View Monitoring System User Guide</summary>
 
+> ⚠️ **This documentation is a summary, whilst still useful it is advised to use the updated docuementation on the dedicated [Gas Monitoring System User Guide](https://james-r-barrett.github.io/gas_monitoring/) for the latest information.**
+
 ---
 # 1. System Overview
 
