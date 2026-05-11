@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Lab Gas System"
-permalink: /gas-monitoring/
+permalink: /gas-monitoring2/
 author_profile: true
 ---
 
