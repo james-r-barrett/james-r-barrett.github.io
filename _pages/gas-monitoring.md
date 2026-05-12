@@ -35,12 +35,12 @@ The dashboard shows up to 14 days of historical data across all active sensors. 
 
 For full documentation on the gas system you can visit the dedicated repository webpages:
 <div style="margin: 20px 0;">
-  <a href="https://james-r-barrett.github.io/gas_monitoring/" 
+  <a href="https://james-r-barrett.github.io/Canary/" 
      target="_blank" 
      rel="noopener noreferrer"
-     style="display: inline-block; background: #e8530a; color: white; padding: 12px 24px; 
+     style="display: inline-block; background: #FFEE1A; color: black; padding: 12px 24px; 
             border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 1em;">
-    Open Full Gas System Documentation ↗
+    Open Canary Gas System Documentation ↗
   </a>
 </div>
 
