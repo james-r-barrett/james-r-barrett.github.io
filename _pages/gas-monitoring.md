@@ -5,7 +5,7 @@ permalink: /gas-monitoring/
 author_profile: true
 ---
 
-This page provides access to the real-time gas monitoring dashboard for the Mackinder Lab growth chambers. The system continuously measures CO₂ (and O₂ on selected chambers) using a network of ESP32-based sensors connected to a central Raspberry Pi hub.
+This page provides access to the real-time gas monitoring dashboard for the Mackinder Lab growth chambers, which is based on the [Canary Gas Monitoring System](https://james-r-barrett.github.io/Canary/) developed here. The system continuously measures CO₂ (and O₂ on selected chambers) using a network of ESP32-based sensors connected to a central Raspberry Pi hub.
 
 <div style="margin: 20px 0;">
   <a href="https://jamesrbarrett.grafana.net/public-dashboards/2842727a8849425480e023f71c46eba7" 
@@ -13,7 +13,7 @@ This page provides access to the real-time gas monitoring dashboard for the Mack
      rel="noopener noreferrer"
      style="display: inline-block; background: #e8530a; color: white; padding: 12px 24px; 
             border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 1em;">
-    Open Live Dashboard ↗
+    Open Mackinder Dashboard ↗
   </a>
 </div>
 
@@ -33,7 +33,7 @@ The dashboard shows up to 14 days of historical data across all active sensors. 
 - Readings are pushed automatically to the dashboard every 5 seconds (default interval, configurable per sensor).
 - Data is stored indefinitely on each sensor's local SD card in monthly CSV files, independent of the dashboard.
 
-For full documentation on the gas system you can visit the dedicated repository webpages:
+For full documentation on the gas system you can visit the Canary Gas System repository webpages:
 <div style="margin: 20px 0;">
   <a href="https://james-r-barrett.github.io/Canary/" 
      target="_blank" 
