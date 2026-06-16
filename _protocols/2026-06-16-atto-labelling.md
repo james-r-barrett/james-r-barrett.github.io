@@ -106,7 +106,9 @@ $$A_{280,\mathrm{corr}} = A_{280} - (A_{501} \times CF_{280})$$
 
 where:
 
-* $CF_{280}$ = correction factor for Atto488 at 280 nm (typically 0.09)
+$CF_{280}$
+
+is correction factor for Atto488 at 280 nm (typically 0.09)
 
 #### 2. Calculate Protein Concentration
 
