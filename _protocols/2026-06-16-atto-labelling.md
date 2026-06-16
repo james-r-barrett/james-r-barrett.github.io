@@ -127,13 +127,14 @@ $$[\mathrm{Atto488}] = \frac{A_{501}}{\varepsilon_{501} \times l}$$
 
 where:
 
-* $$\varepsilon_{501}$$ = 90,000 $M^{-1} cm^{-1}$
+* $$\varepsilon_{500}$$ = 90,000 $$M^{-1} cm^{-1}$$
 
 #### 4. Calculate Degree of Labelling (DOL)
 
 The degree of labelling represents the average number of dye molecules attached per protein molecule:
 
 $$\mathrm{DOL} = \frac{[\mathrm{Atto488}]}{[\mathrm{Protein}]}$$
+
 ### Notes
 
 - Ensure all free dye has been removed prior to measurement (e.g., by desalting column or size-exclusion chromatography).
