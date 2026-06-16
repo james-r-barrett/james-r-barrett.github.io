@@ -105,28 +105,29 @@ Atto488 contributes to the absorbance at 280 nm and must be corrected for:
 $$A_{280,\mathrm{corr}} = A_{280} - (A_{501} \times CF_{280})$$
 
 where:
-* $CF_{280}$ = correction factor for Atto488 at 280 nm (typically 0.09; verify from the dye datasheet)
+
+* $CF_{280} = \text{correction factor for Atto488 at 280 nm (typically 0.09)}$
 
 #### 2. Calculate Protein Concentration
 
-Calculate the molar protein concentration using the protein extinction coefficient at 280 nm (already corrected for path lenght in the nanodrop):
+Calculate the molar protein concentration using the protein extinction coefficient at 280 nm:
 
-$$[\mathrm{Protein}] = \frac{A_{280,\mathrm{corr}}}{\varepsilon_{\mathrm{protein}}}$$
+$$[\mathrm{Protein}] = \frac{A_{280,\mathrm{corr}}}{\varepsilon_{\mathrm{protein}} \times l}$$
 
 where:
 
-* $\varepsilon_{\mathrm{protein}}$ = protein extinction coefficient ($M^{-1} cm^{-1}$)
-* $l$ = path length (cm)
+* $\varepsilon_{\mathrm{protein}} = \text{protein extinction coefficient } (M^{-1} cm^{-1})$
+* $l = \text{path length (cm)}$
 
 #### 3. Calculate Dye Concentration
 
 Using the Atto488 molar extinction coefficient:
 
-$$[\mathrm{Atto488}] = \frac{A_{501}}{\varepsilon_{501}}$$
+$$[\mathrm{Atto488}] = \frac{A_{501}}{\varepsilon_{501} \times l}$$
 
 where:
 
-* $\varepsilon_{501}$ = 90,000 $M^{-1} cm^{-1}$
+* $\varepsilon_{501} = 90,000 \text{ } M^{-1} cm^{-1}$
 
 #### 4. Calculate Degree of Labelling (DOL)
 
