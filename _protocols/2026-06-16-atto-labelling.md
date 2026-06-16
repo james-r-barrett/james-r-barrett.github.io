@@ -105,8 +105,7 @@ Atto488 contributes to the absorbance at 280 nm and must be corrected for:
 $$A_{280,\mathrm{corr}} = A_{280} - (A_{501} \times CF_{280})$$
 
 where:
-
-$CF_{280}$ = correction factor for Atto488 at 280 nm (typically 0.09; verify from the dye datasheet)
+* $CF_{280}$ = correction factor for Atto488 at 280 nm (typically 0.09; verify from the dye datasheet)
 
 #### 2. Calculate Protein Concentration
 
