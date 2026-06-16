@@ -116,7 +116,7 @@ $$[\mathrm{Protein}] = \frac{A_{280,\mathrm{corr}}}{\varepsilon_{\mathrm{protein
 
 where:
 
-* $$\varepsilon_{\mathrm{protein}}$$ = protein extinction coefficient ($M^{-1} cm^{-1}$)
+* $$\varepsilon_{\mathrm{protein}}$$ = protein extinction coefficient ($$M^{-1} cm^{-1}$$)
 * $$l$$ = path length (cm)
 
 #### 3. Calculate Dye Concentration
