@@ -106,7 +106,7 @@ $$A_{280,\mathrm{corr}} = A_{280} - (A_{501} \times CF_{280})$$
 
 where:
 
-* $CF_{280} = \text{correction factor for Atto488 at 280 nm (typically 0.09)}$
+* $CF_{280}$ = correction factor for Atto488 at 280 nm (typically 0.09)
 
 #### 2. Calculate Protein Concentration
 
@@ -116,8 +116,8 @@ $$[\mathrm{Protein}] = \frac{A_{280,\mathrm{corr}}}{\varepsilon_{\mathrm{protein
 
 where:
 
-* $\varepsilon_{\mathrm{protein}} = \text{protein extinction coefficient } (M^{-1} cm^{-1})$
-* $l = \text{path length (cm)}$
+* $\varepsilon_{\mathrm{protein}}$ = protein extinction coefficient ($M^{-1} cm^{-1}$)
+* $l$ = path length (cm)
 
 #### 3. Calculate Dye Concentration
 
@@ -127,7 +127,7 @@ $$[\mathrm{Atto488}] = \frac{A_{501}}{\varepsilon_{501} \times l}$$
 
 where:
 
-* $\varepsilon_{501} = 90,000 \text{ } M^{-1} cm^{-1}$
+* $\varepsilon_{501}$ = 90,000 $M^{-1} cm^{-1}$
 
 #### 4. Calculate Degree of Labelling (DOL)
 
