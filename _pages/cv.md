@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
+## Education and employment
 * 2023-present: Postdoctoral Research Associate, University of York (UK)
 * 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
 * 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
@@ -31,9 +31,8 @@ redirect_from:
   * Cryogenic electron microscopy (cryo-EM).
 * Bioinformatics
   * Tool development (<a href="https://github.com/james-r-barrett/FLIPPer">FLIPPer</a>)
-  * Structural prediction (AlphaFold 2)
   * _In silico_ protein characterisation
-  * Differential expression
+  * Differential expression analysis
 
 ## Publications
 A selection of publications is listed below, please refer to my <a href="https://scholar.google.com/citations?user=cDjZhJ0AAAAJ&hl=en&oi=sragoogle">Google scholar profile</a> for a more comprehensive summary.
@@ -42,12 +41,13 @@ A selection of publications is listed below, please refer to my <a href="https:/
   {% endfor %}</ul>
 
 ## Supervision
-* Supervised 1 masters student on international lab rotation (June 2025 - present)
+* Supervised 1 masters student on international lab rotation (June 2025 - September 2025)
 * Supervised 1 integrated masters student (September 2024 - May 2025)
 * Supervised 2 integrated masters student (September 2020 - May 2021)
 * Supervised 5 undergraduate students as part of  BPSInet UGIRES scheme (Summer 2020) 
 
 ## Organisation & Outreach
+* Tutor at the 2026 Gatsby Plant Science Summer School (July 2026)
 * Tutor at the 2025 Gatsby Plant Science Summer School (July 2025)
 * Pint of Science 2025 "Planet Earth" session speaker (May 2025) 
 * Facilitator for primary school microscopy outreach project, organised by Dr. Katy Davis (January 2025)
