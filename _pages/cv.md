@@ -54,3 +54,10 @@ A selection of publications is listed below, please refer to my <a href="https:/
 * Tutor at the 2024 Gatsby Plant Science Summer School (July 2024)
 * Session chair for *"What shared Physics of Life principles do we see across pyrenoids from different lineages?"* at the York Physics of Pyrenoids (YP3) knowledge exchange retreat (April 2024).
 
+## Conference attendance
+* 1st Satellite Meeting on the Evolution of Photosynthesis - 2026 [London, UK] (invited speaker)
+* ICPR - 2026 [Liverpool, UK] (Poster - "Convergent evolution in the eukaryotic CO2-fixing organelle, the pyrenoid")
+* CCM11 - 2025 [York, UK] (Talk - "The Chlorella pyrenoid as a universal donor for plant engineering")
+* York Physics of Pyrenoids (YP3) - 2024 [Lake District, UK] (Talk - "Convergent evolution of green algal pyrenoids")
+* Genetics of Future Food Production and the Green Revolution 2.0 - 2023 [Newcastle, UK] (Talk - "A promiscuous mechanism to phase separate eukaryotic carbon fixation")
+* CCM10 - 2022 [Princeton, NJ] (Talk - "ID of pyrenoid linker proteins in core chlorophytes suggests shared principles for pyrenoid assembly and function")
