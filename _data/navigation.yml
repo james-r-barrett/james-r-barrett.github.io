@@ -14,3 +14,5 @@ main:
     url: /presentations/
   - title: "Gas System"
     url: /gas-monitoring/
+  - title: '<img src="https://james-r-barrett.github.io/PyBase/favicon.svg" alt="" style="height:14px; width:14px; vertical-align:-2px; margin-right:4px;"> PyBase'
+    url: https://james-r-barrett.github.io/PyBase/
