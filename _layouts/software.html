@@ -44,6 +44,11 @@ layout: default
           {% endunless %}
 
           <p style="margin-top: 1.5em;">
+            {% if page.tool_url %}
+              <a href="{{ page.tool_url }}" class="btn btn--success" target="_blank" rel="noopener">
+                <i class="fas fa-external-link-alt"></i> Use the Tool
+              </a>
+            {% endif %}
             <a href="{{ page.repo_url }}" class="btn btn--info" target="_blank" rel="noopener">
               <i class="fab fa-github"></i> View on GitHub
             </a>

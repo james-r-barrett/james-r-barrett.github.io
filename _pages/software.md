@@ -21,11 +21,18 @@ Software I develop and use for analysis and discovery is (when possible) shared 
         <p>{{ tool.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       </div>
 
-      {% if tool.repo_url %}
+      {% if tool.repo_url or tool.tool_url %}
         <p style="margin-top: 0.5em;">
-          <a href="{{ tool.repo_url }}" class="btn btn--info" target="_blank" style="text-decoration: none; font-size: 0.9em;">
-            <i class="fab fa-github"></i> View on GitHub
-          </a>
+          {% if tool.tool_url %}
+            <a href="{{ tool.tool_url }}" class="btn btn--success" target="_blank" style="text-decoration: none; font-size: 0.9em;">
+              <i class="fas fa-external-link-alt"></i> Use the Tool
+            </a>
+          {% endif %}
+          {% if tool.repo_url %}
+            <a href="{{ tool.repo_url }}" class="btn btn--info" target="_blank" style="text-decoration: none; font-size: 0.9em;">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          {% endif %}
         </p>
       {% endif %}
       
