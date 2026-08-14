@@ -302,10 +302,12 @@ defaults:
       path: ""
       type: software
     values:
-      layout: single
+      layout: software
       author_profile: true
       share: true
       comments: true
+      include_scripts:
+        - /assets/js/github-readme.js
 
 
 # Sass/SCSS
