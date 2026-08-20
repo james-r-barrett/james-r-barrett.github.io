@@ -45,6 +45,10 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.image %}
+          <p><img src="{{ base_path }}{{ page.image }}" alt="" style="max-width: 100%; border-radius: 8px;"></p>
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl %}

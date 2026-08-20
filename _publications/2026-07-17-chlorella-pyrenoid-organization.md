@@ -6,10 +6,9 @@ date: 2026-07-17
 venue: 'bioRxiv (preprint)'
 paperurl: 'https://www.biorxiv.org/content/10.64898/2026.07.17.739135v1.full'
 citation: 'Naduthodi, M.I.S., Barrett, J., Pritchard, J. et al. &quot;Molecular organization of the Chlorella sorokiniana pyrenoid.&quot; <i>bioRxiv</i> (2026). doi: 10.64898/2026.07.17.739135'
+image: /images/publications/chlorella-pyrenoid-organization-summary.png
 ---
- 
-![Summary figure](/images/publications/chlorella-pyrenoid-organization-summary.png)
- 
+
 **Abstract**<br>
 Algae operate CO<sub>2</sub>-concentrating mechanisms (CCMs) that deliver concentrated CO<sub>2</sub> to Rubisco packaged within a specialized microcompartment called a pyrenoid. Pyrenoids are globally important biomolecular condensates, but their convergent evolution means that molecular composition and architecture cannot be inferred across clades. Here we characterize the pyrenoid of the trebouxiophyte alga <i>Chlorella sorokiniana</i>. Using cryo-electron tomography, we provide an architectural overview of the pyrenoid and visualize pyrenoid-specific protein complexes. Quantitative proteomics and Rubisco co-immunoprecipitation coupled to mass spectrometry demonstrate that inorganic carbon delivery machinery is conserved across green algae, but pyrenoid structural components are not. In vitro reconstitution supports the role of two previously undescribed proteins: one in assembly of pyrenoid-traversing thylakoids (putative matrix-thylakoid tether; PMTT) and another in tethering starch to the Rubisco matrix (putative matrix-starch tether; PMST). In <i>Nicotiana benthamiana</i>, PMTT localizes to the thylakoid stromal lamellae and PMST to chloroplast starch granules. Our findings provide insight into the molecular logic of pyrenoid assembly, how proteins mediate condensate-membrane and condensate-starch interactions, and expand the pyrenoid engineering toolkit for plants.<br><br>
 **Description**<br>

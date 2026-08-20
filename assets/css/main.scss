@@ -166,6 +166,120 @@
   border-radius: 12px;
 }
 
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.publication-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.publication-card__image {
+  flex: 0 0 220px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.publication-card__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.publication-card__title {
+  margin: 0 0 0.25rem;
+  font-size: 1.15em;
+  line-height: 1.3;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $info-color;
+    }
+  }
+}
+
+.publication-card__meta {
+  margin: 0 0 0.5rem;
+  color: $dark-gray;
+  font-size: 0.95em;
+}
+
+.publication-card__citation {
+  margin: 0 0 0.5rem;
+  color: $dark-gray;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.publication-card__details {
+  margin-top: 0.5rem;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: $info-color;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "▸ ";
+    }
+  }
+
+  &[open] summary::before {
+    content: "▾ ";
+  }
+}
+
+.publication-card__full {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .publication-card {
+    flex-direction: column;
+  }
+
+  .publication-card__image {
+    flex: 0 0 auto;
+    width: 100%;
+
+    img {
+      height: 180px;
+    }
+  }
+}
+
 .gh-readme-wrapper {
   margin-top: 2rem;
   padding: 1.5rem 1.75rem;
