@@ -9,11 +9,15 @@ Software I develop and use for analysis and discovery is (when possible) shared 
 
 {% include base_path %}
 
-{% for tool in site.software %}
+{% assign tools = site.software | sort: 'date' | reverse %}
+{% for tool in tools %}
   <div class="list__item" style="margin-bottom: 2em;">
     <article class="archive__item">
       
-      <h2 class="archive__item-title" style="font-size: 1.2em; margin-bottom: 0.25em;">
+      <h2 class="archive__item-title" style="font-size: 1.2em; margin-bottom: 0.25em; display: flex; align-items: center; gap: 0.5em;">
+        {% if tool.icon %}
+          <img src="{{ base_path }}{{ tool.icon }}" alt="" style="height: 1.3em; width: 1.3em; object-fit: contain;">
+        {% endif %}
         <a href="{{ base_path }}{{ tool.url }}" rel="permalink">{{ tool.title }}</a>
       </h2>
 
