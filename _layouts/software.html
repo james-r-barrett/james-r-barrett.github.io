@@ -27,8 +27,12 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}
-            <h1 class="page__title" itemprop="headline" style="display: flex; align-items: center; gap: 0.4em;">
-              {% if page.icon %}<img src="{{ base_path }}{{ page.icon }}" alt="" style="height: 1em; width: 1em; object-fit: contain;">{% endif %}
+            <h1 class="page__title software-page__title" itemprop="headline">
+              {% if page.icon %}
+                <span class="software-card__icon software-page__icon">
+                  <img src="{{ base_path }}{{ page.icon }}" alt="">
+                </span>
+              {% endif %}
               {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
             </h1>
           {% endif %}
@@ -48,7 +52,7 @@ layout: default
             {% assign repo_slug = repo_slug[0] | append: "/" | append: repo_slug[1] %}
           {% endunless %}
 
-          <p style="margin-top: 1.5em;">
+          <div class="software-card__actions" style="margin-top: 1.5em;">
             {% if page.tool_url %}
               <a href="{{ page.tool_url }}" class="btn btn--success" target="_blank" rel="noopener">
                 <i class="fas fa-external-link-alt"></i> Use the Tool
@@ -57,10 +61,9 @@ layout: default
             <a href="{{ page.repo_url }}" class="btn btn--info" target="_blank" rel="noopener">
               <i class="fab fa-github"></i> View on GitHub
             </a>
-          </p>
+          </div>
 
-          <div class="gh-readme-wrapper" data-repo="{{ repo_slug }}" style="margin-top: 2em;">
-            <hr>
+          <div class="gh-readme-wrapper" data-repo="{{ repo_slug }}">
             <h2>README <small style="font-weight: normal;">(from GitHub)</small></h2>
             <div class="gh-readme-content">
               <p class="gh-readme-status">Loading README from GitHub&hellip;</p>
