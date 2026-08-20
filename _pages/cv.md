@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-page" markdown="1">
+
 ## Education and employment
 * 2023-present: Postdoctoral Research Associate, University of York (UK)
 * 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
@@ -36,9 +38,10 @@ redirect_from:
 
 ## Publications
 A selection of publications is listed below, please refer to my <a href="https://scholar.google.com/citations?user=cDjZhJ0AAAAJ&hl=en&oi=sragoogle">Google scholar profile</a> for a more comprehensive summary.
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+<ul class="cv-pub-list">{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
 ## Supervision
 * Supervised 1 masters student on international lab rotation (June 2025 - September 2025)
@@ -61,3 +64,5 @@ A selection of publications is listed below, please refer to my <a href="https:/
 * York Physics of Pyrenoids (YP3) - 2024 [Lake District, UK] (Talk - "Convergent evolution of green algal pyrenoids")
 * Genetics of Future Food Production and the Green Revolution 2.0 - 2023 [Newcastle, UK] (Talk - "A promiscuous mechanism to phase separate eukaryotic carbon fixation")
 * CCM10 - 2022 [Princeton, NJ] (Talk - "ID of pyrenoid linker proteins in core chlorophytes suggests shared principles for pyrenoid assembly and function")
+
+</div>
