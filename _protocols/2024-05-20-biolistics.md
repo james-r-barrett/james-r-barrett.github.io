@@ -91,6 +91,8 @@ last updated: 28/06/24
 ### Recovery
 1. If the correct number of cells have been used, and the selection is sufficiently strong (*e.g.* spectinomycin or photorophic recovery), the plates can be left to recover directly following shooting.
 
+   <img src="/images/recovery.jpeg" alt="recovering colonies on a selection plate following bombardment" width="400"/>
+
 ### Homoplasmy
 Following recovery (&sim;2 weeks), colonies need to be restreaked to homoplasmy 
 1. Restreak 8 individual colonies from each transformation.
