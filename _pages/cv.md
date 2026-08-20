@@ -20,6 +20,7 @@ redirect_from:
 ## Grants & Funding
 * Departmental Research Committee (DRC) funding — to visit the lab of Ben Engel at the Biozentrum, University of Basel, for one month to bring back expansion microscopy (September 2026)
 * Engineering Biology Flexible Talent Mobility Account (EngBio FTMA+), £10,000 — to build a collaboration with the lab of Patrick Cai, University of Manchester (February 2026)
+* Named researcher, Carbon Technology Research Foundation (CTRF) grant, 3 years — collaborative project with Princeton University and the University of Edinburgh developing a universal strategy for pyrenoid-based CO<sub>2</sub>-concentrating mechanism engineering (October 2024)
 
 ## Skills
 * Protein biochemistry
