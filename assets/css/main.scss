@@ -64,6 +64,12 @@
   transform: translateY(-3px);
 }
 
+.presentation-card__main {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
 .presentation-card__image {
   display: block;
   margin: -1.25rem -1.5rem 1rem;
@@ -139,6 +145,72 @@
   border-top: 1px solid $border-color;
   font-size: 0.95em;
   line-height: 1.6;
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+.presentation-card__full--poster {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.presentation-card__poster-image {
+  flex: 1 1 55%;
+  max-width: 55%;
+  display: block;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+}
+
+.presentation-card__poster-text {
+  flex: 1 1 45%;
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .presentation-card__full--poster {
+    flex-direction: column;
+  }
+
+  .presentation-card__poster-image {
+    max-width: 100%;
+  }
+}
+
+// Break the card out to the full grid width and lay it out horizontally
+// (thumbnail/meta on the left, expanded content on the right) once opened.
+.presentation-card:has(.presentation-card__details[open]) {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.presentation-card:has(.presentation-card__details[open]) .presentation-card__main {
+  flex: 0 0 260px;
+  max-width: 260px;
+}
+
+.presentation-card:has(.presentation-card__details[open]) .presentation-card__image {
+  margin: -1.25rem 0 1rem -1.5rem;
+  width: calc(100% + 1.5rem);
+}
+
+.presentation-card:has(.presentation-card__details[open]) .presentation-card__details {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 0;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid $border-color;
+}
+
+.presentation-card:has(.presentation-card__details[open]) .presentation-card__full {
+  margin-top: 0.5rem;
+  padding-top: 0;
+  border-top: none;
 }
 
 .software-grid {

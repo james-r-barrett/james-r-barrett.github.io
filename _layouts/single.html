@@ -51,6 +51,11 @@ layout: default
 
         {{ content }}
 
+        {% if page.pdf %}
+          <p><a href="{{ base_path }}{{ page.pdf }}" class="btn btn--info" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Download poster (PDF)</a></p>
+          <iframe src="{{ base_path }}{{ page.pdf }}" width="100%" height="900" loading="lazy" style="border: none;"></iframe>
+        {% endif %}
+
         {% if page.citation and page.paperurl %}
           <p style="font-size: smaller">Cite: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
