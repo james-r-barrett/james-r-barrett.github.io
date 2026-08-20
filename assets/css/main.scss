@@ -158,16 +158,16 @@
 }
 
 .presentation-card__poster-image {
-  flex: 1 1 55%;
-  max-width: 55%;
+  flex: 1 1 78%;
+  max-width: 78%;
   display: block;
   border: 1px solid $border-color;
   border-radius: 8px;
 }
 
 .presentation-card__poster-text {
-  flex: 1 1 45%;
-  min-width: 0;
+  flex: 1 1 22%;
+  min-width: 160px;
 }
 
 @media (max-width: 700px) {
@@ -189,8 +189,8 @@
 }
 
 .presentation-card:has(.presentation-card__details[open]) .presentation-card__main {
-  flex: 0 0 260px;
-  max-width: 260px;
+  flex: 0 0 220px;
+  max-width: 220px;
 }
 
 .presentation-card:has(.presentation-card__details[open]) .presentation-card__image {
