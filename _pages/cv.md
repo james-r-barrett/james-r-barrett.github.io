@@ -17,6 +17,10 @@ redirect_from:
 * 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
 * 2016-2019: BSc in Biochemistry, University of York (UK)
 
+## Grants & Funding
+* Departmental Research Committee (DRC) funding — to visit the lab of Ben Engel at the Biozentrum, University of Basel, for one month to bring back expansion microscopy (September 2026)
+* Engineering Biology Flexible Talent Mobility Account (EngBio FTMA+), £10,000 — to build a collaboration with the lab of Patrick Cai, University of Manchester (February 2026)
+
 ## Skills
 * Protein biochemistry
   * Protein purification from _E. coli_, algae, plants and _Pichia pastoris_
@@ -64,5 +68,14 @@ A selection of publications is listed below, please refer to my <a href="https:/
 * York Physics of Pyrenoids (YP3) - 2024 [Lake District, UK] (Talk - "Convergent evolution of green algal pyrenoids")
 * Genetics of Future Food Production and the Green Revolution 2.0 - 2023 [Newcastle, UK] (Talk - "A promiscuous mechanism to phase separate eukaryotic carbon fixation")
 * CCM10 - 2022 [Princeton, NJ] (Talk - "ID of pyrenoid linker proteins in core chlorophytes suggests shared principles for pyrenoid assembly and function")
+
+## Peer Review
+* Reviewer for PNAS
+* Reviewer for Nature Plants
+* Reviewer for Plant Physiology
+
+## Professional Memberships
+* Genetics Society
+* British Phycological Society
 
 </div>
