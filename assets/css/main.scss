@@ -40,27 +40,105 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.presentation-list {
-  list-style: none;
-  padding-left: 0;
+.presentation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.presentation-item {
+.presentation-card {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  align-items: flex-start;
+  flex-direction: column;
+  padding: 1.25rem 1.5rem 1.5rem;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.presentation-item img {
-  width: 140px;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+.presentation-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
 }
 
-.presentation-text {
-  max-width: 800px;
+.presentation-card__image {
+  display: block;
+  margin: -1.25rem -1.5rem 1rem;
+
+  img {
+    display: block;
+    width: 100%;
+    max-height: 380px;
+    object-fit: contain;
+    background: $code-background-color;
+    border-bottom: 1px solid $border-color;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.presentation-card__title {
+  margin: 0 0 0.25rem;
+  font-size: 1.1em;
+  line-height: 1.3;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $info-color;
+    }
+  }
+}
+
+.presentation-card__meta {
+  margin: 0 0 0.5rem;
+  color: $dark-gray;
+  font-size: 0.9em;
+}
+
+.presentation-card__links {
+  margin: 0 0 0.5rem;
+
+  .btn {
+    font-size: 0.85em;
+    text-decoration: none;
+  }
+}
+
+.presentation-card__details {
+  margin-top: 0.5rem;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: $info-color;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "▸ ";
+    }
+  }
+
+  &[open] summary::before {
+    content: "▾ ";
+  }
+}
+
+.presentation-card__full {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.95em;
+  line-height: 1.6;
 }
 
 .software-grid {

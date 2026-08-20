@@ -1,0 +1,35 @@
+{% assign item = include.item %}
+<article class="presentation-card">
+  {% if item.thumbnail %}
+    <a href="{{ base_path }}{{ item.url }}" class="presentation-card__image">
+      <img src="{{ base_path }}{{ item.thumbnail }}" alt="Thumbnail for {{ item.title }}">
+    </a>
+  {% endif %}
+
+  <div class="presentation-card__body">
+    <h3 class="presentation-card__title">
+      <a href="{{ base_path }}{{ item.url }}" rel="permalink">{{ item.title }}</a>
+    </h3>
+
+    <p class="presentation-card__meta">
+      <em>{{ item.venue }}</em>{% if item.location %}, {{ item.location }}{% endif %} &middot; {{ item.date | date: "%Y" }}
+    </p>
+
+    {% if item.slides %}
+      <p class="presentation-card__links">
+        <a href="{{ item.slides }}" target="_blank" rel="noopener" class="btn btn--info">
+          <i class="fas fa-chalkboard"></i> Slides
+        </a>
+      </p>
+    {% endif %}
+
+    {% if item.content and item.content != empty %}
+      <details class="presentation-card__details">
+        <summary>{% if item.type == "Poster" %}Show poster &amp; abstract{% else %}Show details{% endif %}</summary>
+        <div class="presentation-card__full">
+          {{ item.content }}
+        </div>
+      </details>
+    {% endif %}
+  </div>
+</article>
