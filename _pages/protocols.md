@@ -12,13 +12,15 @@ Where possible, I will upload relevant protocols here.
 <div class="protocol-grid">
   {% for protocol in site.protocols %}
     <article class="protocol-card">
-      <h2 class="protocol-card__title">
-        <a href="{{ base_path }}{{ protocol.url }}" rel="permalink">{{ protocol.title }}</a>
-      </h2>
+      <div class="protocol-card__body">
+        <h2 class="protocol-card__title">
+          <a href="{{ base_path }}{{ protocol.url }}" rel="permalink">{{ protocol.title }}</a>
+        </h2>
 
-      {% if protocol.excerpt %}
-        <p class="protocol-card__excerpt">{{ protocol.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-      {% endif %}
+        {% if protocol.excerpt %}
+          <p class="protocol-card__excerpt">{{ protocol.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+      </div>
 
       <div class="protocol-card__actions">
         <a href="{{ base_path }}{{ protocol.url }}" class="btn btn--info">

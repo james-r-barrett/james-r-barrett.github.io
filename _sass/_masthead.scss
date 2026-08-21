@@ -55,4 +55,14 @@
     padding-right: 2em;
     font-weight: 700;
   }
+
+  &--current > a {
+    position: relative;
+    color: $accent-color;
+    font-weight: 600;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
 }

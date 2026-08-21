@@ -69,6 +69,8 @@ $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
+$accent-color                : #1b7f6e;
+$accent-color-light          : mix(#fff, $accent-color, 90%);
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
