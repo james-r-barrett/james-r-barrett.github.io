@@ -19,6 +19,9 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
@@ -37,6 +40,8 @@
 }
 
 .masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
 
   ul {
     margin: 0;

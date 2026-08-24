@@ -16,6 +16,7 @@ description              : &description "Post-doctoral Research Associate; Unive
 url                      : https://james-r-barrett.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://james-r-barrett.github.io"
+search                   : true # enables the search overlay (see search.json, assets/js/search.js)
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -137,9 +138,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-HSS3BJ742L"
 
 
 # Reading Files

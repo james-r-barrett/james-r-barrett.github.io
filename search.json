@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+{% assign is_first = true %}
+{% assign search_pages = "/,/cv/,/gas-monitoring/" | split: "," %}
+{% for page in site.pages %}
+  {% if search_pages contains page.permalink %}
+    {% unless is_first %},{% endunless %}
+    {% assign is_first = false %}
+    {
+      "title": {{ page.title | jsonify }},
+      "url": {{ page.url | relative_url | jsonify }},
+      "content": {{ page.content | strip_html | normalize_whitespace | jsonify }},
+      "collection": "page"
+    }
+  {% endif %}
+{% endfor %}
+{% assign search_collections = "protocols,publications,software,presentations" | split: "," %}
+{% for collection_name in search_collections %}
+  {% assign collection_docs = site[collection_name] %}
+  {% for doc in collection_docs %}
+    {% unless is_first %},{% endunless %}
+    {% assign is_first = false %}
+    {
+      "title": {{ doc.title | jsonify }},
+      "url": {{ doc.url | relative_url | jsonify }},
+      "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
+      "collection": {{ collection_name | jsonify }}
+    }
+  {% endfor %}
+{% endfor %}
+]

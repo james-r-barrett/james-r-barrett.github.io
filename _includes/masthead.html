@@ -27,5 +27,12 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% if site.search %}
+      <button type="button" class="search__toggle" aria-label="Toggle search" data-search-toggle>
+        <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+      </button>
+    {% endif %}
   </div>
 </div>
+
+{% if site.search %}{% include search-overlay.html %}{% endif %}
