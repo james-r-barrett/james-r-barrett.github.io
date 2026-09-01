@@ -653,6 +653,12 @@
   cursor: pointer;
   transition: $global-transition;
 
+  @include breakpoint(max-width 400px) {
+    margin-left: 0.35rem;
+    padding: 0.35rem;
+    font-size: 0.9em;
+  }
+
   &:hover,
   &:focus {
     color: $masthead-link-color-hover;
@@ -697,6 +703,12 @@
   font-size: 1em;
   cursor: pointer;
   transition: $global-transition;
+
+  @include breakpoint(max-width 400px) {
+    margin-left: 0.35rem;
+    padding: 0.35rem;
+    font-size: 0.9em;
+  }
 
   &:hover,
   &:focus {

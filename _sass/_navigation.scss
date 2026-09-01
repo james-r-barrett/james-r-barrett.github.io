@@ -177,6 +177,10 @@
   min-width: 250px;
   background: var(--bg-surface);
 
+  @include breakpoint(max-width 400px) {
+    min-width: 190px;
+  }
+
   a {
     display: block;
     margin: 0 1rem;
