@@ -68,16 +68,16 @@
   display: flex;
   flex-direction: column;
   padding: 1.25rem 1.5rem 1.5rem;
-  background: #fff;
-  border: 1px solid $border-color;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
   border-top: 3px solid $accent-color;
   border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px var(--shadow-color);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .presentation-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px var(--shadow-color-strong);
   transform: translateY(-3px);
 }
 
@@ -96,8 +96,8 @@
     width: 100%;
     max-height: 380px;
     object-fit: contain;
-    background: $code-background-color;
-    border-bottom: 1px solid $border-color;
+    background: var(--bg-surface-alt);
+    border-bottom: 1px solid var(--border-color);
     border-radius: 10px 10px 0 0;
   }
 }
@@ -108,7 +108,7 @@
   line-height: 1.3;
 
   a {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &:hover {
@@ -119,7 +119,7 @@
 
 .presentation-card__meta {
   margin: 0 0 0.5rem;
-  color: $dark-gray;
+  color: var(--text-muted);
   font-size: 0.9em;
 }
 
@@ -139,7 +139,7 @@
     cursor: pointer;
     font-size: 0.9em;
     font-weight: 600;
-    color: $accent-color;
+    color: var(--accent-color);
     list-style: none;
 
     &::-webkit-details-marker {
@@ -159,7 +159,7 @@
 .presentation-card__full {
   margin-top: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
   font-size: 0.95em;
   line-height: 1.6;
 
@@ -178,7 +178,7 @@
   flex: 1 1 58%;
   max-width: 58%;
   display: block;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
 }
 
@@ -243,7 +243,7 @@
   margin-top: 0;
   margin-left: 1.5rem;
   padding-left: 1.5rem;
-  border-left: 1px solid $border-color;
+  border-left: 1px solid var(--border-color);
 }
 
 .presentation-card:has(.presentation-card__details[open]) .presentation-card__full {
@@ -263,16 +263,16 @@
   display: flex;
   flex-direction: column;
   padding: 1.25rem 1.5rem 1.5rem;
-  background: #fff;
-  border: 1px solid $border-color;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
   border-top: 3px solid $accent-color;
   border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px var(--shadow-color);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .software-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px var(--shadow-color-strong);
   transform: translateY(-3px);
 }
 
@@ -291,7 +291,7 @@
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: $lighter-gray;
+  background: var(--bg-surface-alt);
 
   img {
     width: 68%;
@@ -311,7 +311,7 @@
   line-height: 1.3;
 
   a {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &:hover {
@@ -325,7 +325,7 @@
   margin-bottom: 1rem;
   font-size: 1em;
   line-height: 1.6;
-  color: $dark-gray;
+  color: var(--text-muted);
 
   p {
     margin: 0;
@@ -367,16 +367,16 @@
   display: flex;
   flex-direction: column;
   padding: 1.25rem 1.5rem;
-  background: #fff;
-  border: 1px solid $border-color;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
   border-top: 3px solid $accent-color;
   border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px var(--shadow-color);
   transition: box-shadow 0.2s ease;
 }
 
 .publication-card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px var(--shadow-color-strong);
 }
 
 .publication-card__image {
@@ -387,8 +387,8 @@
     width: 100%;
     max-height: 480px;
     object-fit: contain;
-    background: $code-background-color;
-    border: 1px solid $border-color;
+    background: var(--bg-surface-alt);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
   }
 }
@@ -404,7 +404,7 @@
   line-height: 1.3;
 
   a {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &:hover {
@@ -415,13 +415,13 @@
 
 .publication-card__meta {
   margin: 0 0 0.5rem;
-  color: $dark-gray;
+  color: var(--text-muted);
   font-size: 0.95em;
 }
 
 .publication-card__citation {
   margin: 0 0 0.5rem;
-  color: $dark-gray;
+  color: var(--text-muted);
   font-size: 0.85em;
   line-height: 1.5;
 }
@@ -433,7 +433,7 @@
     cursor: pointer;
     font-size: 0.9em;
     font-weight: 600;
-    color: $accent-color;
+    color: var(--accent-color);
     list-style: none;
 
     &::-webkit-details-marker {
@@ -453,7 +453,7 @@
 .publication-card__full {
   margin-top: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
   font-size: 0.95em;
   line-height: 1.6;
 }
@@ -461,8 +461,8 @@
 .gh-readme-wrapper {
   margin-top: 2rem;
   padding: 1.5rem 1.75rem;
-  background: $code-background-color;
-  border: 1px solid $border-color;
+  background: var(--bg-surface-alt);
+  border: 1px solid var(--border-color);
   border-radius: 10px;
 
   h2 {
@@ -484,16 +484,16 @@
   gap: 1.25rem;
   min-height: 120px;
   padding: 1.25rem 1.5rem;
-  background: #fff;
-  border: 1px solid $border-color;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
   border-left: 4px solid $accent-color;
   border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px var(--shadow-color);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .protocol-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px var(--shadow-color-strong);
   transform: translateY(-3px);
 }
 
@@ -508,7 +508,7 @@
   line-height: 1.3;
 
   a {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &:hover {
@@ -521,7 +521,7 @@
   margin: 0;
   font-size: 0.95em;
   line-height: 1.55;
-  color: $dark-gray;
+  color: var(--text-muted);
 }
 
 .protocol-card__actions {
@@ -546,7 +546,7 @@
   h2 {
     margin: 2.5rem 0 1.1rem;
     padding-bottom: 0.4rem;
-    border-bottom: 2px solid $border-color;
+    border-bottom: 2px solid var(--border-color);
     font-size: 1.25em;
     letter-spacing: 0.02em;
   }
@@ -574,7 +574,7 @@
 
       li {
         margin-bottom: 0.3rem;
-        color: $dark-gray;
+        color: var(--text-muted);
         font-size: 0.95em;
         line-height: 1.5;
       }
@@ -593,8 +593,8 @@
 
 .cv-pub-item {
   padding: 0.75rem 1rem;
-  background: #fff;
-  border: 1px solid $border-color;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
   border-left: 3px solid $accent-color;
   border-radius: 6px;
 }
@@ -605,7 +605,7 @@
   line-height: 1.4;
 
   a {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &:hover {
@@ -617,7 +617,7 @@
 .cv-pub-item__meta {
   display: block;
   margin-top: 0.3rem;
-  color: $dark-gray;
+  color: var(--text-muted);
   font-size: 0.85em;
   line-height: 1.5;
 }
@@ -637,7 +637,7 @@
   &:hover,
   &:focus {
     color: $masthead-link-color-hover;
-    background: $lighter-gray;
+    background: var(--bg-surface-alt);
   }
 }
 
@@ -661,7 +661,7 @@
     max-width: 640px;
     margin: 10vh auto 0;
     padding: 0.5rem;
-    background: #fff;
+    background: var(--bg-surface);
     border-radius: 10px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 
@@ -674,13 +674,13 @@
     position: relative;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid var(--border-color);
   }
 
   &__input-icon {
     position: absolute;
     left: 0.85rem;
-    color: $dark-gray;
+    color: var(--text-muted);
     font-size: 0.9em;
     pointer-events: none;
   }
@@ -691,7 +691,7 @@
     border: 0;
     background: transparent;
     font-size: 1.1em;
-    color: $text-color;
+    color: var(--text-color);
 
     &:focus {
       outline: none;
@@ -705,12 +705,12 @@
     background: transparent;
     border: 0;
     border-radius: 8px;
-    color: $dark-gray;
+    color: var(--text-muted);
     cursor: pointer;
 
     &:hover {
-      color: $text-color;
-      background: $lighter-gray;
+      color: var(--text-color);
+      background: var(--bg-surface-alt);
     }
   }
 
@@ -731,7 +731,7 @@
 
       &:hover,
       &:focus {
-        background: $lighter-gray;
+        background: var(--bg-surface-alt);
       }
     }
   }
@@ -739,7 +739,7 @@
   &__result-title {
     display: block;
     font-weight: 600;
-    color: $text-color;
+    color: var(--text-color);
     line-height: 1.4;
   }
 
@@ -750,7 +750,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    color: $accent-color;
+    color: var(--accent-color);
   }
 
   &__result-excerpt {
@@ -758,12 +758,12 @@
     margin-top: 0.25rem;
     font-size: 0.85em;
     line-height: 1.5;
-    color: $dark-gray;
+    color: var(--text-muted);
   }
 
   &__empty {
     padding: 1rem 0.85rem;
-    color: $dark-gray;
+    color: var(--text-muted);
     font-size: 0.9em;
   }
 }

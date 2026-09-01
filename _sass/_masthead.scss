@@ -4,8 +4,9 @@
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+  transition: background 0.2s ease, border-color 0.2s ease;
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -63,11 +64,11 @@
 
   &--current > a {
     position: relative;
-    color: $accent-color;
+    color: var(--accent-color);
     font-weight: 600;
 
     &:hover {
-      color: $accent-color;
+      color: var(--accent-color);
     }
   }
 }

@@ -112,6 +112,47 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*
+   Theme custom properties (light default, overridden for dark mode)
+   ========================================================================== */
+
+:root {
+  --bg-color: #f1f6f5;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #{$lighter-gray};
+  --text-color: #{$dark-gray};
+  --text-muted: #{mix(#fff, $gray, 25%)};
+  --border-color: #{$lighter-gray};
+  --border-color-strong: #{$light-gray};
+  --code-bg: #{$code-background-color};
+  --code-header-bg: #{$lighter-gray};
+  --code-fg: #586e75;
+  --code-fg-muted: #93a1a1;
+  --accent-color: #{$accent-color};
+  --shadow-color: rgba(0, 0, 0, 0.06);
+  --shadow-color-strong: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #14181b;
+    --bg-surface: #1c2124;
+    --bg-surface-alt: #262c2f;
+    --text-color: #d3d7d9;
+    --text-muted: #92999d;
+    --border-color: #33393c;
+    --border-color-strong: #3f464a;
+    --code-bg: #002b36;
+    --code-header-bg: #073642;
+    --code-fg: #93a1a1;
+    --code-fg-muted: #657b83;
+    --accent-color: #34c9ae;
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --shadow-color-strong: rgba(0, 0, 0, 0.55);
+  }
+}
+
+
+/*
    Breakpoints
    ========================================================================== */
 
