@@ -458,6 +458,25 @@
   line-height: 1.6;
 }
 
+// Figures with a transparent background assume light ink/lines, so give
+// them a fixed light backing plate in dark mode to stay legible; in light
+// mode they're left alone to blend straight into the page background.
+.figure-plate {
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+  }
+}
+
+:root[data-theme="dark"] .figure-plate {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
 .gh-readme-wrapper {
   margin-top: 2rem;
   padding: 1.5rem 1.75rem;
@@ -620,6 +639,51 @@
   color: var(--text-muted);
   font-size: 0.85em;
   line-height: 1.5;
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  color: $masthead-link-color;
+  font-size: 1em;
+  cursor: pointer;
+  transition: $global-transition;
+
+  &:hover,
+  &:focus {
+    color: $masthead-link-color-hover;
+    background: var(--bg-surface-alt);
+  }
+
+  .fa-sun {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & {
+      .fa-sun {
+        display: inline-block;
+      }
+
+      .fa-moon {
+        display: none;
+      }
+    }
+  }
+}
+
+:root[data-theme="dark"] .theme-toggle {
+  .fa-sun {
+    display: inline-block;
+  }
+
+  .fa-moon {
+    display: none;
+  }
 }
 
 .search__toggle {

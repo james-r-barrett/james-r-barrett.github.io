@@ -115,6 +115,24 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    Theme custom properties (light default, overridden for dark mode)
    ========================================================================== */
 
+@mixin dark-theme-vars {
+  --bg-color: #14181b;
+  --bg-surface: #1c2124;
+  --bg-surface-alt: #262c2f;
+  --text-color: #d3d7d9;
+  --text-muted: #92999d;
+  --border-color: #33393c;
+  --border-color-strong: #3f464a;
+  --code-bg: #002b36;
+  --code-header-bg: #073642;
+  --code-fg: #93a1a1;
+  --code-fg-muted: #657b83;
+  --accent-color: #34c9ae;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --shadow-color-strong: rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
 :root {
   --bg-color: #f1f6f5;
   --bg-surface: #ffffff;
@@ -130,25 +148,19 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
   --accent-color: #{$accent-color};
   --shadow-color: rgba(0, 0, 0, 0.06);
   --shadow-color-strong: rgba(0, 0, 0, 0.1);
+  color-scheme: light;
 }
 
+/* follows the OS/browser preference unless overridden by the toggle below */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #14181b;
-    --bg-surface: #1c2124;
-    --bg-surface-alt: #262c2f;
-    --text-color: #d3d7d9;
-    --text-muted: #92999d;
-    --border-color: #33393c;
-    --border-color-strong: #3f464a;
-    --code-bg: #002b36;
-    --code-header-bg: #073642;
-    --code-fg: #93a1a1;
-    --code-fg-muted: #657b83;
-    --accent-color: #34c9ae;
-    --shadow-color: rgba(0, 0, 0, 0.4);
-    --shadow-color-strong: rgba(0, 0, 0, 0.55);
+  :root:not([data-theme="light"]) {
+    @include dark-theme-vars;
   }
+}
+
+/* explicit choice from the theme toggle, wins over the OS/browser preference */
+:root[data-theme="dark"] {
+  @include dark-theme-vars;
 }
 
 

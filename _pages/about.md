@@ -14,6 +14,7 @@ I am a post-doctoral research associate in the [Mackinder lab](https://mackinder
 My main interest is in characterising pyrenoid components and their evolution with a view to understanding how they can be used to guide synthetic biology engineering approaches in plants.
  
 ![placeholder summary figure](/images/overview_figure.png)
+{: .figure-plate}
 *Figure from [Barrett et al., Annual Review (2026)](/publications/2026-01-14-annual-review).*
  
 ## Funding
