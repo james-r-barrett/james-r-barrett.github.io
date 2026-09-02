@@ -20,4 +20,5 @@ My main interest is in characterising pyrenoid components and their evolution wi
 ## Funding
 I am currently funded by the Carbon Technology Research Foundation (CTRF) as part of a collaborative project with the University of Princeton and University of Edinburgh. We aim to build on a recent discovery of a promiscuous pyrenoid linker protein from _Chlorella sorokiniana_ to develop a "_Universal strategy for pyrenoid-based CO<sub>2</sub>-concentrating mechanism engineering to enhance CO<sub>2</sub> capture in plants and algae._"
  
-<img src="https://james-r-barrett.github.io/images/CTRF-Logo-Black-Text.svg" alt="drawing" width="200"/>
+<img src="https://james-r-barrett.github.io/images/CTRF-Logo-Black-Text.svg" alt="Carbon Technology Research Foundation logo" width="200" class="theme-logo--light"/>
+<img src="https://james-r-barrett.github.io/images/CTRF-Logo-White-Text.svg" alt="Carbon Technology Research Foundation logo" width="200" class="theme-logo--dark"/>

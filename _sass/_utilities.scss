@@ -231,6 +231,14 @@ body:hover .visually-hidden button {
   .fa-github-alt,
   .fa-github-square {
     color: $github-color;
+
+    // $github-color is near-black, drawn for a light background; swap to
+    // GitHub's own light-mode mark color so it stays visible in dark mode.
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) & {
+        color: #f0f6fc;
+      }
+    }
   }
 
   .fa-google-plus,
@@ -315,6 +323,14 @@ body:hover .visually-hidden button {
   .fa-xing,
   .fa-xing-square {
     color: $xing-color;
+  }
+}
+
+:root[data-theme="dark"] .social-icons {
+  .fa-github,
+  .fa-github-alt,
+  .fa-github-square {
+    color: #f0f6fc;
   }
 }
 

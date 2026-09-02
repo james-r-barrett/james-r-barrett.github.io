@@ -303,6 +303,19 @@
     font-size: 1.2rem;
     color: $info-color;
   }
+
+  // Software icons are mostly drawn in dark ink for a light background,
+  // so the surface-alt dark-mode tone isn't contrasty enough behind them;
+  // give the swatch a fixed light backing plate instead, same idea as .figure-plate.
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & {
+      background: #fff;
+    }
+  }
+}
+
+:root[data-theme="dark"] .software-card__icon {
+  background: #fff;
 }
 
 .software-card__title {
@@ -475,6 +488,35 @@
   background: #fff;
   border-radius: 10px;
   padding: 1rem;
+}
+
+// Swap between a light-mode and dark-mode asset (e.g. a logo with dark
+// text that needs a light-text variant on a dark background). Give the
+// light-mode image `.theme-logo--light` and the dark-mode one `.theme-logo--dark`.
+.theme-logo--dark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    .theme-logo--light {
+      display: none;
+    }
+
+    .theme-logo--dark {
+      display: inline-block;
+    }
+  }
+}
+
+:root[data-theme="dark"] {
+  .theme-logo--light {
+    display: none;
+  }
+
+  .theme-logo--dark {
+    display: inline-block;
+  }
 }
 
 .gh-readme-wrapper {
