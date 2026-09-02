@@ -239,6 +239,14 @@
   grid-column: 1 / -1;
 }
 
+// The expanded poster content repeats the same image at full size, so hide
+// the small thumbnail above it to avoid showing the poster twice. Scoped to
+// cards that actually have a poster image, so plain text-only expandable
+// entries keep their thumbnail visible.
+.presentation-card:has(.presentation-card__details[open]):has(.presentation-card__poster-image) .presentation-card__image {
+  display: none;
+}
+
 .presentation-card:has(.presentation-card__details[open]) .presentation-card__full {
   margin-top: 0.5rem;
   padding-top: 0;
