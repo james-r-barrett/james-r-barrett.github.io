@@ -219,31 +219,40 @@
   }
 }
 
-// Break the card out to the full grid width and lay it out horizontally
-// (thumbnail/meta on the left, expanded content on the right) once opened.
+// Break the card out to the full grid width once opened. On screens wide
+// enough to spare it, lay it out horizontally (thumbnail/meta on the left,
+// expanded content on the right); below that the thumbnail is too narrow
+// to share a row with the details, so keep the default stacked layout —
+// details in a full-width column below the poster — instead of crushing
+// the text into a thin strip.
 .presentation-card:has(.presentation-card__details[open]) {
   grid-column: 1 / -1;
-  flex-direction: row;
-  align-items: flex-start;
 }
 
-.presentation-card:has(.presentation-card__details[open]) .presentation-card__main {
-  flex: 0 0 220px;
-  max-width: 220px;
-}
+@media (min-width: 700px) {
+  .presentation-card:has(.presentation-card__details[open]) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
-.presentation-card:has(.presentation-card__details[open]) .presentation-card__image {
-  margin: -1.25rem 0 1rem -1.5rem;
-  width: calc(100% + 1.5rem);
-}
+  .presentation-card:has(.presentation-card__details[open]) .presentation-card__main {
+    flex: 0 0 220px;
+    max-width: 220px;
+  }
 
-.presentation-card:has(.presentation-card__details[open]) .presentation-card__details {
-  flex: 1 1 auto;
-  min-width: 0;
-  margin-top: 0;
-  margin-left: 1.5rem;
-  padding-left: 1.5rem;
-  border-left: 1px solid var(--border-color);
+  .presentation-card:has(.presentation-card__details[open]) .presentation-card__image {
+    margin: -1.25rem 0 1rem -1.5rem;
+    width: calc(100% + 1.5rem);
+  }
+
+  .presentation-card:has(.presentation-card__details[open]) .presentation-card__details {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-top: 0;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--border-color);
+  }
 }
 
 .presentation-card:has(.presentation-card__details[open]) .presentation-card__full {
@@ -488,6 +497,25 @@
   background: #fff;
   border-radius: 10px;
   padding: 1rem;
+}
+
+// The canary favicon is dark ink on a transparent background, so it
+// vanishes against the dark masthead in dark mode — give it a small
+// white rounded backing plate there, same idea as .software-card__icon.
+.nav-menu-icon {
+  border-radius: 3px;
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & {
+      background: #fff;
+      padding: 1px;
+    }
+  }
+}
+
+:root[data-theme="dark"] .nav-menu-icon {
+  background: #fff;
+  padding: 1px;
 }
 
 // Swap between a light-mode and dark-mode asset (e.g. a logo with dark
