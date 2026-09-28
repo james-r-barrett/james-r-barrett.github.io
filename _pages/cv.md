@@ -12,6 +12,7 @@ redirect_from:
 <div class="cv-page" markdown="1">
 
 ## Education and employment
+* 2026: Visiting Research Associate, lab of Ben Engel, Biozentrum, University of Basel (CH)
 * 2023-present: Postdoctoral Research Associate, University of York (UK)
 * 2019-2023: Ph.D in Mechanistic Biology (White Rose DTP), University of York (UK)
 * 2017-2018: Research placement with Mikael Rørdam Andersen, Technical University of Denmark (DK)
