@@ -27,8 +27,6 @@ redirect_from:
 * **2015–2019:** BSc Biochemistry (with a Year in Europe), University of York (UK) — 1<sup>st</sup> class honours
 
 ## Grants & Funding
-* BBSRC strategic Longer and Larger (sLoLa) grant — co-wrote the proposal and produced all figures; researcher co-lead and co-lead of 3 work packages (from January 2027)
-* Royal Society Faraday Discovery Fellowship (PI: Luke Mackinder) — named PDRA and PhD supervisor (from June 2027)
 * Carbon Technology Research Foundation (CTRF) grant, 3 years — named research co-investigator; wrote significant portions of the proposal, produced the figures and provided most of the preliminary data. Collaborative project with Princeton University and the University of Edinburgh (October 2024)
 * Engineering Biology Flexible Talent Mobility Account (EngBio FTMA+), £10,000 — sole applicant; collaboration with the lab of Patrick Cai, University of Manchester (February 2026)
 * Departmental Research Committee (DRC) funding — one-month visit to the lab of Ben Engel, Biozentrum, University of Basel, to bring expansion microscopy to York (September 2026)
@@ -48,8 +46,8 @@ A selection of publications is listed below, please refer to my <a href="https:/
 {% endfor %}</ul>
 
 ## Conferences & invited talks
-* Biozentrum, University of Basel - 2026 [Basel, CH] (invited talk)
-* ALPOLE sampling kickoff meeting - 2026 [Sion, CH] (invited talk)
+* Biozentrum, University of Basel - 2026 [Basel, CH]
+* ALPOLE sampling kickoff meeting - 2026 [Sion, CH]
 * 1st Satellite Meeting on the Evolution of Photosynthesis, ICPR 2026 satellite event - 2026 [London, UK] (invited talk)
 * ICPR - 2026 [Liverpool, UK] (Poster - "Convergent evolution in the eukaryotic CO2-fixing organelle, the pyrenoid")
 * University of York Research Away Day - 2026 [York, UK] (Poster - "Inside the Pyrenoid: How Multivalency Shapes Rubisco Organization and CO₂ Fixation")
@@ -79,7 +77,6 @@ A selection of publications is listed below, please refer to my <a href="https:/
 * Tobias Erb lab (Max Planck Institute for Terrestrial Microbiology, Marburg, DE) — chloroplast synthetic biology
 * Patrick Cai lab (University of Manchester, UK) — synthetic plastome engineering
 * Ben Engel lab (Biozentrum, University of Basel, CH) — expansion microscopy and pyrenoid condensates
-* Fabien Burki lab (Uppsala University, SE) — diatom shell protein evolution
 * Jonas Blomme lab (Ghent University/VIB, BE) — *Ulva* CO<sub>2</sub>-fixation machinery
 * Combining Algal and Plant Photosynthesis (CAPP) consortium — active member
 
