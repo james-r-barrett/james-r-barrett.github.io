@@ -17,7 +17,7 @@ redirect_from:
   * Named research co-investigator on the CTRF grant, based on discoveries during my PhD
   * Researcher co-lead on the BBSRC sLoLa (from January 2027); named PDRA and PhD supervisor on the Royal Society Faraday Discovery Fellowship (from June 2027)
 * **2026:** Visiting Research Associate, lab of Ben Engel, Biozentrum, University of Basel (CH) — expansion microscopy
-* **2026:** Visiting Researcher, lab of Patrick Cai, University of Manchester (UK) — synthetic plastome design (February–March 2026)
+* **2026:** Visiting Researcher, lab of Patrick Cai, University of Manchester (UK) — synthetic plastome design (August 2026–Present [part time])
 * **2022–present:** Research contributor, York Physics of Pyrenoids (YP3) consortium, University of York (UK)
 * **2023:** Part-time professional internship, Protein Production Technology Facility (Jared Cartwright), University of York (UK) — *"Scaling production of large multimeric complexes from algae"*
 * **2017–2018:** ERASMUS-funded research placement, lab of Mikael Rørdam Andersen, Technical University of Denmark (DK) — *"Development of a protocol for extraction of genomic DNA from* Aspergillus niger *for nanopore sequencing"*
