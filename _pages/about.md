@@ -1,12 +1,10 @@
 ---
-permalink: /
+permalink: /about/
 title: "About"
-seo_title: "James Barrett - Pyrenoid biology, University of York"
-description: "James Barrett is a postdoctoral research associate in the Mackinder lab at the University of York, studying how pyrenoids work and evolved to guide CO2-concentrating mechanism engineering in plants."
+description: "About James Barrett: PhD at the University of York, postdoctoral research in the Mackinder lab on pyrenoid biology and evolution, and CTRF-funded work on pyrenoid engineering in plants."
 excerpt: "Understanding pyrenoid biology and evolution."
 author_profile: true
-redirect_from: 
-  - /about/
+redirect_from:
   - /about.html
 ---
  
