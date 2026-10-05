@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+description: "Publications by James Barrett on pyrenoids, Rubisco condensation and CO2-concentrating mechanisms in algae and plants, with summaries and links to each paper."
 permalink: /publications/
 author_profile: true
 ---

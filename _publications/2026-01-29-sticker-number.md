@@ -5,6 +5,7 @@ permalink: /publications/2026-01-29-sticker-number
 date: 2026-01-29
 venue: 'bioRxiv'
 paperurl: 'https://www.biorxiv.org/content/10.64898/2026.01.27.701992v1'
+doi: '10.64898/2026.01.27.701992'
 citation: '*Kumar, G., *Barrett, J., *Van der Stappen, P., et. al., &quot;Sticker number modulates pyrenoid condensate assembly to support algal fitness.&quot; <i>bioRxiv.</i> (2026).'
 ---
 

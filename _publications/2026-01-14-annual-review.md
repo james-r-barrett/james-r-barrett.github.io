@@ -5,6 +5,7 @@ permalink: /publications/2026-01-14-annual-review
 date: 2026-01-14
 venue: 'Annual Review of Plant Biology'
 paperurl: 'https://www.annualreviews.org/content/journals/10.1146/annurev-arplant-070225-034846'
+doi: '10.1146/annurev-arplant-070225-034846'
 citation: '*Barrett, J., *Nam, O., *Naduthodi, M.I.S., Mackinder L.C.M.. &quot;Pyrenoid Structure, Function, Evolution, and Characterization Across Diverse Lineages.&quot; <i>Annual Review Plant Biology.</i> (2026).'
 ---
 

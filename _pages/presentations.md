@@ -1,6 +1,7 @@
 ---
 layout: archive_2
 title: "Presentations / Posters"
+description: "Talks and posters by James Barrett on pyrenoid biology, Rubisco condensates and CO2-concentrating mechanism engineering."
 permalink: /presentations/
 author_profile: true
 ---

@@ -1,6 +1,7 @@
 ---
 layout: archive_2
 title: "Software"
+description: "Open-source software by James Barrett for pyrenoid research, including FLIPPer, RubiCon, SEC_Fit, OxySolve, GG-calc and the Canary gas monitoring system."
 permalink: /software/
 author_profile: true
 ---

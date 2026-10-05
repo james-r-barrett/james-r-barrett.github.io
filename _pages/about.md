@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "About"
+seo_title: "James Barrett - Pyrenoid biology, University of York"
+description: "James Barrett is a postdoctoral research associate in the Mackinder lab at the University of York, studying how pyrenoids work and evolved to guide CO2-concentrating mechanism engineering in plants."
 excerpt: "Understanding pyrenoid biology and evolution."
 author_profile: true
 redirect_from: 
@@ -8,12 +10,12 @@ redirect_from:
   - /about.html
 ---
  
-I am a post-doctoral research associate in the [Mackinder lab](https://mackinderlab.weebly.com/) at the University of York. I completed my Ph.D in November 2023, presenting a thesis entitled "*Convergent and concurrent evolution of a promiscuous mechanism to phase separate eukaryotic carbon fixation*". During this time, I was lucky to be supervised by Professor Luke Mackinder and Professor Mark Leake, who encouraged a 'blue-sky' approach to science. This allowed me to develop my interests at the interface of pyrenoid biology, synthetic biology and plant engineering.
+I am a post-doctoral research associate in the [Mackinder lab](https://mackinderlab.github.io/) at the University of York. I completed my Ph.D in November 2023, presenting a thesis entitled "*Convergent and concurrent evolution of a promiscuous mechanism to phase separate eukaryotic carbon fixation*". During this time, I was lucky to be supervised by Professor Luke Mackinder and Professor Mark Leake, who encouraged a 'blue-sky' approach to science. This allowed me to develop my interests at the interface of pyrenoid biology, synthetic biology and plant engineering.
  
 ## Interests
 My main interest is in characterising pyrenoid components and their evolution with a view to understanding how they can be used to guide synthetic biology engineering approaches in plants.
  
-![placeholder summary figure](/images/overview_figure.png)
+![Comparison of pyrenoid components across Chlamydomonas, Chlorella, Anthoceros, Amorphochlora, diatoms and carboxysomes, with hypothetical plant assemblies](/images/overview_figure.png)
 {: .figure-plate}
 *Figure from [Barrett et al., Annual Review (2026)](/publications/2026-01-14-annual-review).*
  

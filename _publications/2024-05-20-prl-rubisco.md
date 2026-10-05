@@ -5,6 +5,7 @@ permalink: /publications/2025-05-20-prl-rubisco
 date: 2024-05-20
 venue: 'Physical Review Letters'
 paperurl: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.218401'
+doi: '10.1103/PhysRevLett.132.218401'
 citation: 'Payne-Dwyer, A. et al. (2024). "Predicting Rubisco-Linker Condensation from Titration in the Dilute Phase". Physical review letters, 132 (21), p.218401.'
 ---
 
