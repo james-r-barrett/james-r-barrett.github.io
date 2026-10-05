@@ -904,95 +904,130 @@
     font-size: 0.9em;
   }
 }
-// Home page
+// Home page (layout follows the Mackinder lab site's home page)
 .home-intro {
   font-size: 1.1em;
   line-height: 1.6;
   max-width: 46em;
 }
 
-.home-section {
-  margin-top: 2rem;
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+
+  h2 {
+    margin: 1.5rem 0 0.6rem;
+    font-size: 1.2em;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
 }
 
-.home-section__title {
-  margin: 0 0 0.75rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid var(--border-color);
-  font-size: 1.2em;
-}
-
-.home-section__more {
+.home-more {
   margin: 0.6rem 0 0;
   font-size: 0.9em;
 }
 
-.home-pubs {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.25rem;
-}
-
-.home-pub {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  padding: 0.9rem 1rem 1rem;
-  background: var(--bg-surface);
-  border: 1px solid var(--border-color);
-  border-top: 3px solid $accent-color;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px var(--shadow-color);
-  color: var(--text-color);
-  text-decoration: none;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-
-  &:hover {
-    box-shadow: 0 8px 20px var(--shadow-color-strong);
-    transform: translateY(-3px);
-  }
-
-  &:hover .home-pub__title {
-    color: $accent-color;
-  }
-}
-
-.archive .home-pub,
-.archive .home-pub:hover {
-  text-decoration: none;
-}
-
-.home-pub__image {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: contain;
-  background: #fff;
-  border-radius: 6px;
-}
-
-.home-pub__title {
-  font-weight: bold;
-  line-height: 1.3;
-}
-
-.home-pub__meta {
+.home-muted {
+  display: block;
   color: var(--text-muted);
   font-size: 0.85em;
 }
 
-.home-columns {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 0 2rem;
-}
-
-.home-list {
+.home-updates {
   margin: 0;
-  padding-left: 1.1rem;
+  padding: 0;
+  list-style: none;
 
   li {
-    margin-bottom: 0.35rem;
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+    line-height: 1.45;
   }
+}
+
+.home-updates__date {
+  padding-top: 0.1rem;
+  color: var(--text-muted);
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.home-tag {
+  display: inline-block;
+  margin-left: 0.3rem;
+  padding: 0 0.45rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.7em;
+  vertical-align: 0.15em;
+}
+
+.home-papers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+  }
+}
+
+.archive .home-feature,
+.archive .home-feature:hover {
+  text-decoration: none;
+}
+
+.home-feature {
+  display: block;
+  margin-top: 1.5rem;
+  color: var(--text-color);
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease;
+  }
+
+  &:hover img {
+    box-shadow: 0 8px 20px var(--shadow-color-strong);
+  }
+
+  &:hover .home-feature__title {
+    color: $accent-color;
+  }
+}
+
+.home-feature__label {
+  display: block;
+  margin-top: 0.6rem;
+  color: var(--text-muted);
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.home-feature__title {
+  display: block;
+  font-weight: bold;
+  line-height: 1.35;
 }
 
 .home-bsky__scroll {
