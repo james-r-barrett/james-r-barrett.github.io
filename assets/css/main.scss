@@ -918,14 +918,28 @@
   margin-top: 0.5rem;
 
   h2 {
-    margin: 1.5rem 0 0.6rem;
-    font-size: 1.2em;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $accent-color;
+    font-size: 1.15em;
   }
 
   @media (max-width: 900px) {
     grid-template-columns: minmax(0, 1fr);
     gap: 0;
   }
+}
+
+// Each home page block sits on its own white card so the sections separate
+// clearly from the page background, especially in light mode.
+.home-card {
+  display: block;
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color-strong);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px var(--shadow-color);
 }
 
 .home-more {
@@ -953,6 +967,10 @@
     border-bottom: 1px solid var(--border-color);
     line-height: 1.45;
   }
+
+  li:last-child {
+    border-bottom: 0;
+  }
 }
 
 .home-updates__date {
@@ -979,8 +997,18 @@
   list-style: none;
 
   li {
-    margin-bottom: 0.8rem;
+    margin: 0;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border-color);
     line-height: 1.4;
+  }
+
+  li:first-child {
+    padding-top: 0;
+  }
+
+  li:last-child {
+    border-bottom: 0;
   }
 }
 
@@ -990,9 +1018,8 @@
 }
 
 .home-feature {
-  display: block;
-  margin-top: 1.5rem;
   color: var(--text-color);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 
   img {
     display: block;
@@ -1001,13 +1028,12 @@
     max-height: 420px;
     object-fit: contain;
     background: #fff;
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
-    transition: box-shadow 0.2s ease;
+    border-radius: 6px;
   }
 
-  &:hover img {
+  &:hover {
     box-shadow: 0 8px 20px var(--shadow-color-strong);
+    transform: translateY(-3px);
   }
 
   &:hover .home-feature__title {
@@ -1034,7 +1060,5 @@
   height: 560px;
   overflow-y: auto;
   overflow-x: hidden;
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  padding: 0 0.5rem;
+  margin: 0 -0.5rem;
 }

@@ -17,6 +17,7 @@ author_profile: true
 
 <div class="home-grid">
   <div class="home-main">
+    <section class="home-card">
     <h2>Protocols and software</h2>
     <ul class="home-updates">
       {% for item in updates limit: 6 %}
@@ -27,7 +28,9 @@ author_profile: true
       {% endfor %}
     </ul>
     <p class="home-more"><a href="{{ base_path }}/protocols/">All protocols</a> · <a href="{{ base_path }}/software/">All software</a></p>
+    </section>
 
+    <section class="home-card">
     <h2>{% if featured %}More recent papers{% else %}Recent papers{% endif %}</h2>
     <ul class="home-papers">
       {% assign shown = 0 %}
@@ -43,12 +46,13 @@ author_profile: true
       {% endfor %}
     </ul>
     <p class="home-more"><a href="{{ base_path }}/publications/">All publications</a></p>
+    </section>
   </div>
 
   <aside class="home-side">
     {% if featured %}
       {% assign featured_title = featured.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
-      <a class="home-feature" href="{{ base_path }}{{ featured.url }}">
+      <a class="home-card home-feature" href="{{ base_path }}{{ featured.url }}">
         <img src="{{ base_path }}{{ featured.image }}" alt="Summary figure for {{ featured.title | strip_html | escape }}">
         <span class="home-feature__label">Latest paper</span>
         <span class="home-feature__title">{{ featured_title }}</span>
@@ -56,7 +60,7 @@ author_profile: true
     {% endif %}
 
     {% if site.author.bluesky %}
-      <section class="home-bsky">
+      <section class="home-card home-bsky">
         <h2>On Bluesky</h2>
         <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed@0.3.0/dist/bsky-embed.es.js" async></script>
         <div class="home-bsky__scroll" data-bsky-handle="{{ site.author.bluesky | remove: '@' }}"></div>
