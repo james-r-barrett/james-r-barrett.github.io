@@ -7,15 +7,22 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-UK"
-title                    : "Pyrenoids"
+locale                   : "en-GB"
+title                    : "James Barrett"
 masthead_title           : "James Barrett"
 title_separator          : "-"
 name                     : &name "James Barrett"
-description              : &description "Post-doctoral Research Associate; University of York (UK)"
+description              : &description "James Barrett is a postdoctoral research associate in the Mackinder lab at the University of York, studying pyrenoid biology and evolution to support CO2-concentrating mechanism engineering in plants."
+job_title                : "Postdoctoral Research Associate" # used in search-engine structured data
+affiliation:
+  name                   : "University of York"
+  url                    : "https://www.york.ac.uk"
+lab:
+  name                   : "Mackinder lab"
+  url                    : "https://mackinderlab.github.io"
 url                      : https://james-r-barrett.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://james-r-barrett.github.io"
+repository               : "james-r-barrett/james-r-barrett.github.io"
 search                   : true # enables the search overlay (see search.json, assets/js/search.js)
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -114,7 +121,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "4t1b8KzGRHlShj2YAIY4yDfDXnt2DUxK2tNrLKswQ3c"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -122,12 +129,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "james_r_barrett"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.jpeg" # Open Graph/Twitter default site image, in /images/
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -172,6 +179,12 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - CONTRIBUTING.md
+  - README.md
 keep_files:
   - .git
   - .svn
@@ -202,16 +215,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
   protocols:
@@ -245,15 +249,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -263,23 +258,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
   # protocols
   - scope:
       path: ""
@@ -321,7 +299,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

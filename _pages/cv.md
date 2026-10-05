@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
+description: "Curriculum vitae of James Barrett, postdoctoral research associate at the University of York: research experience, education, funding, awards, publications, talks and supervision."
 permalink: /cv/
 author_profile: true
 redirect_from:

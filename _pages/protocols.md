@@ -1,6 +1,7 @@
 ---
 layout: archive_2
 title: "Protocols"
+description: "Lab protocols from James Barrett for pyrenoid enrichment, Rubisco and linker protein purification, Golden Gate cloning, biolistics and protein labelling."
 permalink: /protocols/
 author_profile: true
 ---

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Lab Gas System"
+description: "Live CO2 and O2 monitoring dashboard for the Mackinder lab growth chambers, built on the Canary gas monitoring system."
 permalink: /gas-monitoring/
 author_profile: true
 ---

@@ -5,6 +5,7 @@ permalink: /publications/2026-07-17-chlorella-pyrenoid-organization
 date: 2026-07-17
 venue: 'bioRxiv (preprint)'
 paperurl: 'https://www.biorxiv.org/content/10.64898/2026.07.17.739135v1.full'
+doi: '10.64898/2026.07.17.739135'
 citation: 'Naduthodi, M.I.S., Barrett, J., Pritchard, J. et al. &quot;Molecular organization of the Chlorella sorokiniana pyrenoid.&quot; <i>bioRxiv</i> (2026). doi: 10.64898/2026.07.17.739135'
 image: /images/publications/chlorella-pyrenoid-organization-summary.png
 ---
