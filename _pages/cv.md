@@ -47,6 +47,7 @@ A selection of publications is listed below, please refer to my <a href="https:/
 {% endfor %}</ul>
 
 ## Conferences & invited talks
+* 13th Annual Synmikro Symposium - 2026 [Marburg, DE] (invited talk)
 * Biozentrum, University of Basel - 2026 [Basel, CH]
 * ALPOLE sampling kickoff meeting - 2026 [Sion, CH]
 * 1st Satellite Meeting on the Evolution of Photosynthesis, ICPR 2026 satellite event - 2026 [London, UK] (invited talk)
