@@ -47,6 +47,7 @@ A selection of publications is listed below, please refer to my <a href="https:/
 {% endfor %}</ul>
 
 ## Conferences & invited talks
+* Biology Postdoc Symposium - 2026 [York, UK] (Talk - "Convergent evolution in the eukaryotic CO2-fixing condensate, the pyrenoid")
 * 13th Annual Synmikro Symposium - 2026 [Marburg, DE] (invited talk)
 * Biozentrum, University of Basel - 2026 [Basel, CH]
 * ALPOLE sampling kickoff meeting - 2026 [Sion, CH]
